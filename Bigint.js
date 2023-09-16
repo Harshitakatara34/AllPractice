@@ -24,6 +24,15 @@ console.log(obj[passcodeSym])
 
 console.log(Object.getOwnPropertyNames(obj)); // (2) ['name', 'age']
 
+
+
+//For Symbols
+// console.log(Object.getOwnPropertySymbols(obj));
+// // (3) [Symbol(passcode), Symbol(role), Symbol(passcode)]
+
+// console.log(Reflect.ownKeys(obj));
+// //(5) ['name', 'age', Symbol(passcode), Symbol(role), Symbol(passcode)]
+
 for (const key in obj) {
   console.log(key);
 }
