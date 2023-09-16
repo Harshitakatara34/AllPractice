@@ -54,6 +54,39 @@ console.log(symbol1 === symbol2); // Output: false (symbols are always unique)
 
 
 // ##--------------------------------------------------------##
+// Symbol.for and Symbol
+let passcodeSym = Symbol('passcode');
+let roleSym = Symbol.for('role');
+
+let obj = {
+  name: 'John doe',
+  age: 36,
+  [passcodeSym]: 'world',
+  [roleSym]: 'trainee'
+}
+
+obj[Symbol('passcode')] = 'Hello'; // will not overwrite but create a new property with the same descriptor
+obj[Symbol.for('role')] = 'developer'; // will overwrite the existing one with the same descriptor
+
+
+
+
+// ####-----------------------------------------------------------------------##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Creating an object and inside that object there is one function and we are adding the key in 
@@ -81,6 +114,41 @@ console.log(feelingData);
 
 
 // ####---------------------------------------------------------------------------------------##
+
+
+// these property will not work on Symbol
+
+// let passcodeSym = Symbol('passcode');
+// let roleSym = Symbol.for('role');
+
+let obj = {
+  name: 'John doe',
+  age: 36,
+  [passcodeSym]: 'world',
+  [roleSym]: 'trainee'
+}
+
+obj[Symbol('passcode')] = 'Hello'; // will not overwrite but create a new property with the same descriptor
+obj[Symbol.for('role')] = 'developer'; // will overwrite the existing one with the same descriptor
+
+console.log(obj.passcodeSym); // undefined
+
+console.log(obj[passcodeSym])
+
+console.log(Object.getOwnPropertyNames(obj)); // (2) ['name', 'age']
+
+for (const key in obj) {
+  console.log(key);
+}
+// name
+// age
+
+console.log(Object.keys(obj))
+console.log(Object.entries(obj))
+console.log(JSON.stringify(obj))
+
+
+
 
 //Constructor
 
