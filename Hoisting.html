@@ -11,9 +11,38 @@
 </body>
 </html>
 <script>
-    // all the variable will be declared as undefined in Global Execution Phae at the compilation time .
+    // all the variable will be declared as undefined in Global Execution Phase at the compilation time .
     debugger;
     a=10;
     console.log(a);
     let a;
 </script>
+
+<!-- What Is Reference Error??
+Whenever compiler accessing the variable which is in the memory and we can't access it then it will give reference error 
+like in let . -->
+
+
+<!-- 
+ Hoisting in Case of LET & Const 
+ In let and const the variable will remain in script memory by assigning undefined to it not in global memory till then it is not 
+ initialised with value and that zone we also known as temporal dead Zone . -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- // What is Temporal Dead Zone  -->
+<!-- The time between since the variabe is hoisted and the till  when it is initialised  the time between them is TDZ -->
+
+<!-- And When it get initialised with some value it will move out of TDZ -->
+<!-- Whenever the variable is in TDZ we can't access them    that's why it gives reference Error  -->
+
+<!-- In var the value is store in global object in sources In sources there will be two things one is global and other is script 
+let and const value will stored in script not in global . -->
