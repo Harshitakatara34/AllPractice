@@ -29,3 +29,13 @@ class Person {
       return  this.name + ' the Engineer, makes money.';
     }
   }
+
+  const teacher = new Teacher('Alice', 'Math');
+  console.log(teacher)
+console.log(teacher.sayHello()); // Output: Alice the Person, says Hello
+console.log(teacher.teach()); // Output: Alice the Teacher, teaches Math
+
+const engineer = new Engineer('Bob');
+console.log(engineer)
+console.log(engineer.sayHello()); // Output: Bob the Person, says Hello
+console.log(engineer.earn()); // Output: Bob the Engineer, makes money.
