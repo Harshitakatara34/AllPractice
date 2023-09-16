@@ -1,7 +1,8 @@
 
-console.log(harshi) // harshi is not defined 
+console.log(x) // harshi is not defined 
+
 function temp (){
-var harshi;
+var x;
 }
 temp()
 
