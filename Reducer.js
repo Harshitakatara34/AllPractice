@@ -1,15 +1,15 @@
-// 1 . let john = { name: "John", age: 25 };
+// let john = { name: "John", age: 25 };
 // let pete = { name: "Pete", age: 30 };
 // let mary = { name: "Mary", age: 29 };
 
-// let arr = [ john, pete, mary ];
+// let arr = [john, pete, mary];
 
-// // alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
+// let getAverageAge = arr.reduce((acc, item) => {
+//   return acc + item.age;
+// }, 0) / arr.length;
 
-// let sum=arr.reduce((acc,elem)=>{
-//   return acc+elem.age
-// },0)
-// console.log(sum)
+// console.log(getAverageAge); // Output: 28
+
 
 
 
@@ -43,6 +43,8 @@
 //     return acc;
 //   },[])
 // console.log(newArr)  
+
+
 
 
 
