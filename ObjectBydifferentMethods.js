@@ -1,4 +1,4 @@
-// Factory Function 
+// Factory Function  There are the function that returns object
 // Animal
 //     ├── noOfLegs <number>
 //     ├── vegetarian <boolean>
@@ -52,6 +52,9 @@
 //   console.log(a1)
 //   a1.eat() // eating...
 //   a1.greet() // Hi, I have 4 legs.
+
+
+
 
 
 // Constructor Function (Second Method by using Prototype)
