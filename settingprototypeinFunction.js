@@ -75,68 +75,56 @@
 
 
 
-// output
-// iPhone2 {generation: 2, asin: 'B09dfgsgQV', weight: 9.8, os: 'IOS 2', ram: '256mb', …}
-// asin
-// : 
-// "B09dfgsgQV"
-// bluetooth
-// : 
-// "2.0"
-// camera
-// : 
-// "4.0 MP"
-// color
-// : 
-// "Gray"
-// display
-// : 
-// "99mm"
-// generation
-// : 
-// 2
-// internet
-// : 
-// "3g"
-// os
-// : 
-// "IOS 2"
-// ram
-// : 
-// "256mb"
-// weight
-// : 
-// 9.8
-// [[Prototype]]
-// : 
-// iPhone1
-// cameraClick
-// : 
-// ƒ ()
-// connectWithBlutoothDevice
-// : 
-// ƒ ()
-// connectWithInternet
-// : 
-// ƒ ()
-// constructor
-// : 
-// ƒ iPhone2(generation, ASIN, weight, OS, RAM, color, display, camera, bluetooth, internetType)
-// [[Prototype]]
-// : 
-// Object
-// cameraClick
-// : 
-// ƒ ()
-// dial
-// : 
-// ƒ ()
-// sendMessage
-// : 
-// ƒ ()
-// constructor
-// : 
-// ƒ iPhone1(o ,generation, ASIN, weight, OS, RAM, color, display, camera)
-// [[Prototype]]
-// : 
-// Object
+
+
+
+
+// ##########################-------------------------------------------------------#########################
+// 2....
+
+// iPhone1.prototype.dial = function(){
+//     console.log('tring.. tring...');
+//   }
+  
+//   iPhone1.prototype.sendMessage = function() {
+//     console.log('Sending message...');
+//   }
+  
+//   iPhone1.prototype.cameraClick = function() {
+//     console.log('Camera clicked')
+//   }
+  
+//   // factory function to create iPhone1
+//   function iPhone1(ASIN, RAM, color) {
+//     let obj = {};
+//     Object.setPrototypeOf(obj, iPhone1.prototype);
+  
+//     obj.asin = ASIN;
+//     obj.ram = RAM;
+//     obj.color = color;
+    
+//     return obj;  
+//   }
+  
+//   // factory function to create iPhone2
+//   Object.setPrototypeOf(iPhone2.prototype, iPhone1.prototype);
+  
+//   iPhone2.prototype.connectToBT = function() {
+//     console.log('Bluetooh connected')
+//   }
+  
+//   iPhone2.prototype.disConnectFromBT = function() {
+//     console.log('Bluetooh disconnected')
+//   }
+  
+//   function iPhone2(ASIN, RAM, color, bluetooth) {
+//     let obj = iPhone1(ASIN,RAM, color )
+  
+//     Object.setPrototypeOf(obj, iPhone2.prototype)
+//     obj.bluetooth = bluetooth;
+  
+  
+//     return obj;
+//   }
+  
+//   let i1 = iPhone2(1,'128mb','Gray', '1.4');
