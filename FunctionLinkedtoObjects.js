@@ -24,8 +24,6 @@ Person.prototype.increaseAge = function() {
   Person.prototype.introduceSelf = function() {
     console.log(this.firstName, this.lastName, this.age);
   }
-  
-  
   function Person(firstName, lastName, age) {
     let obj = {};
     Object.setPrototypeOf(obj, Person.prototype);
@@ -36,7 +34,7 @@ Person.prototype.increaseAge = function() {
   
     return obj;
   }
-  
+
   Object.setPrototypeOf(Employee.prototype, Person.prototype)
   
   Employee.prototype.work = function() {
@@ -49,7 +47,9 @@ Person.prototype.increaseAge = function() {
   
   
   function Employee(firstName, lastName, age, department, salary) {
+
     let obj = Person(firstName, lastName, age);
+
     Object.setPrototypeOf(obj, Employee.prototype);
   
     obj.department = department;
@@ -59,4 +59,4 @@ Person.prototype.increaseAge = function() {
   }
   
   let e1 = Employee("John", "Doe", 25, "frontend", 200000);
-  console.log(e1.eat())
+  console.log(e1)
