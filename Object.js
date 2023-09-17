@@ -1,5 +1,6 @@
 // object Account
 // grouping related variables
+// Properties in Object always should be in string or Symbol nothing other than this
 let account = {
     name: 'Vivek',
     type: 'Simple Saving',

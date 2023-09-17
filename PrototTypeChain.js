@@ -1,3 +1,4 @@
+// SetPrototypeOf
 // let obj = {
 //     name: 'vivek',
 //     sayHello: function () {
@@ -12,14 +13,16 @@
 //     }
 //   }
   
-//   Object.setPrototypeOf(obj2, obj);
-  
+//   Object.setPrototypeOf(obj2, obj);   obj2._proto_==obj  true
+                                        //  obj._proto_=obj2    false
 //   obj2.sayHello();
   
 //   console.log(obj2);
 
 
-
+let obj={}
+let obj2={}
+console.log(obj===obj2)  //false
 
 
 
@@ -43,10 +46,10 @@
 //   obj2.work = function () {
 //     console.log('Working');
 //   }
-  
-  
-  
 //   console.log(obj2.sayHello());
+
+
+
 
 
 
