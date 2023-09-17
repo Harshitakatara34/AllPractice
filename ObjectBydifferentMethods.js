@@ -11,22 +11,22 @@
 // eat() // console.log(`eating...`)
 // greet() // console.log(`Hi, I have <noOfLegs> legs.`)
 
-function animal(noOfLegs, vegetarian) {
-    let obj={}
-    obj.noOfLegs=noOfLegs
-    obj.vegetarian=vegetarian
-    obj.eat=function(){
-      console.log("eating.....")
-    }
-    obj.greet=function(){
-      console.log(`Hi,I have Legs`)
-    }
-    return obj
-  }
+// function animal(noOfLegs, vegetarian) {
+//     let obj={}
+//     obj.noOfLegs=noOfLegs
+//     obj.vegetarian=vegetarian
+//     obj.eat=function(){
+//       console.log("eating.....")
+//     }
+//     obj.greet=function(){
+//       console.log(`Hi,I have Legs`)
+//     }
+//     return obj
+//   }
   
-  // example invocation
-  let a1 = animal(4,true);
-  console.log(a1.eat())
+//   // example invocation
+//   let a1 = animal(4,true);
+//   console.log(a1.eat())
   // a1.eat() // eating...
   // a1.greet() // Hi, I have 4 legs.
 
