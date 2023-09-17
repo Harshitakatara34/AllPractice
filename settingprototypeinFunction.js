@@ -71,3 +71,72 @@
 //   }
   
 //   let i2 = iPhone2(2,'B09dfgsgQV',9.8,'IOS 2', '256mb','Gray','99mm','4.0 MP', '2.0', '3g');
+// console.log(i2)
+
+
+
+// output
+// iPhone2 {generation: 2, asin: 'B09dfgsgQV', weight: 9.8, os: 'IOS 2', ram: '256mb', …}
+// asin
+// : 
+// "B09dfgsgQV"
+// bluetooth
+// : 
+// "2.0"
+// camera
+// : 
+// "4.0 MP"
+// color
+// : 
+// "Gray"
+// display
+// : 
+// "99mm"
+// generation
+// : 
+// 2
+// internet
+// : 
+// "3g"
+// os
+// : 
+// "IOS 2"
+// ram
+// : 
+// "256mb"
+// weight
+// : 
+// 9.8
+// [[Prototype]]
+// : 
+// iPhone1
+// cameraClick
+// : 
+// ƒ ()
+// connectWithBlutoothDevice
+// : 
+// ƒ ()
+// connectWithInternet
+// : 
+// ƒ ()
+// constructor
+// : 
+// ƒ iPhone2(generation, ASIN, weight, OS, RAM, color, display, camera, bluetooth, internetType)
+// [[Prototype]]
+// : 
+// Object
+// cameraClick
+// : 
+// ƒ ()
+// dial
+// : 
+// ƒ ()
+// sendMessage
+// : 
+// ƒ ()
+// constructor
+// : 
+// ƒ iPhone1(o ,generation, ASIN, weight, OS, RAM, color, display, camera)
+// [[Prototype]]
+// : 
+// Object
