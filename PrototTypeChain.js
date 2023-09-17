@@ -47,3 +47,25 @@
   
   
 //   console.log(obj2.sayHello());
+
+
+
+// Object.assign
+// Object.setPrototypeOf() / Object.create()  sets up a prototype chain 
+// between the source object and the target object. But, Object.assign() 
+// method only copies enumerable and own properties from a source object to a target object.
+// let obj = {
+//     name: 'vivek',
+//     sayHello: function () {
+//       console.log('Hello');
+//     }
+//   }
+  
+//   let obj2 = {};
+  
+//   Object.assign(obj2, obj); // doesnot create a chain
+  
+//   console.log(obj2);
+
+
+
