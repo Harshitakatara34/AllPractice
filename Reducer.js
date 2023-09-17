@@ -69,3 +69,65 @@
   
 //   console.log(subjectHash);
   
+
+
+
+
+
+// ######3--------------------------------------------------------------------##########
+// const data = [
+//     { name: 'Superman', favoriteIceCreams: ['Strawberry', 'Vanilla', 'Chocolate', 'Cookies & Cream'] },
+//     { name: 'Batman', favoriteIceCreams: ['Cookies & Cream', 'Mint Chocolate Chip', 'Chocolate', 'Vanilla'] },
+//     { name: 'Flash', favoriteIceCreams: ['Chocolate', 'Rocky Road', 'Pistachio', 'Banana'] },
+//     { name: 'Aquaman', favoriteIceCreams: ['Vanilla', 'Chocolate', 'Mint Chocolate Chip'] },
+//     { name: 'Green Lantern', favoriteIceCreams: ['Vanilla', 'French Vanilla', 'Vanilla Bean', 'Strawberry'] },
+//     { name: 'Robin', favoriteIceCreams: ['Strawberry', 'Chocolate', 'Mint Chocolate Chip'] }
+//   ];
+//   let temp=data.reduce((acc,elem)=>{
+//   elem.favoriteIceCreams.forEach((el)=>{
+//     if(!acc[el]){
+//       acc[el]=1
+//     }
+//     else{
+//       acc[el]++
+//     }
+//   })
+//     return acc
+//   },{})
+  
+//   console.log(temp)
+  
+  /*
+  {
+    Strawberry: 3,
+    Vanilla: 4,
+    Chocolate: 5,
+    'Cookies & Cream': 2,
+    'Mint Chocolate Chip': 3,
+    'Rocky Road': 1,
+    Pistachio: 1,
+    Banana: 1,
+    'French Vanilla': 1,
+    'Vanilla Bean': 1
+  }
+  */
+
+
+
+
+//   ####################################-----------------------------------------------################################
+
+// const wishlist = [
+//     { title: "Tesla Model S", price: 90000 },
+//     { title: "4 carat diamond ring", price: 45000 },
+//     { title: "Fancy hacky Sack", price: 5 },
+//     { title: "Gold fidgit spinner", price: 2000 },
+//     { title: "A second Tesla Model S", price: 90000 }
+//   ];
+  
+//   // Given an array of all your wishlist items, figure out how much it would cost to just buy everything at once: 227005
+//   let data=wishlist.reduce((acc,el)=>{
+//     return acc+el.price
+//   },0)
+//   console.log(data)
+
