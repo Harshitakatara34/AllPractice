@@ -33,7 +33,7 @@
 
 
 
-  // Constructor Function
+  // Constructor Function(First Method)
 //   function Animal(noOfLegs, vegetarian) {
 //     this.noOfLegs = noOfLegs;
 //     this.vegetarian = vegetarian;
@@ -52,6 +52,38 @@
 //   console.log(a1)
 //   a1.eat() // eating...
 //   a1.greet() // Hi, I have 4 legs.
+
+
+// Constructor Function (Second Method by using Prototype)
+
+/// By contructor using prototype etc 
+
+// function Animal(noOfLegs, vegetarian) {
+//   this.noOfLegs = noOfLegs;
+//   this.vegetarian = vegetarian;
+// }
+
+// Animal.prototype.eat = function() {
+//   console.log('eating...');
+// };
+
+// Animal.prototype.greet = function() {
+//   console.log(`Hi, I have ${this.noOfLegs} legs.`);
+// };
+
+// // Example invocation
+// let a1 = new Animal(4, true);
+// console.log(a1);
+// a1.eat(); // eating...
+// a1.greet(); // Hi, I have 4 legs.
+
+
+
+
+
+
+
+
 
 
 
