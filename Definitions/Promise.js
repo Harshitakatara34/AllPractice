@@ -12,4 +12,4 @@ let promise = new Promise((res, rej) => {
     rej("error");
   }
 });
-console.log(promise)
+promise.then(()=>console.log("Resolved")).catch((err)=>console.log(err))
