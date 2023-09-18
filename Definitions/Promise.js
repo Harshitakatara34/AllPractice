@@ -13,3 +13,20 @@ let promise = new Promise((res, rej) => {
   }
 });
 promise.then(()=>console.log("Resolved")).catch((err)=>console.log(err))
+
+
+// async and await enhance code quality, readability, and maintainability in 
+// asynchronous JavaScript programming, making it a valuable addition to the 
+// language for handling asynchronous operations.
+
+
+async function getData(){
+    try{
+        let data=await fetch("")
+        let res= await data.json()
+    }
+    catch(err){
+        console.log(err)
+    }
+}
+getData()
