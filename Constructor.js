@@ -1,4 +1,9 @@
 
+// function ki property inherit krane k liye we have to do super.functionanme () 
+// in our child class 
+
+
+
 // ES6
 
 // class Person {
