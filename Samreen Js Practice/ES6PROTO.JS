@@ -26,14 +26,16 @@ class Person {
   teacher1.sayHello();
   teacher1.teach();
   
-  console.log(teacher1); 
-  console.log(Teacher.prototype) 
-  console.log(teacher1.__proto__) 
-  console.log(person1)
-  console.log(Teacher.prototype.__proto__)
-  console.log(person1.__proto__)
-  console.log(Person.prototype.__proto__.__proto__)
-  
+  console.log(teacher1); //Teacher
+  console.log(Teacher.prototype) //person
+  console.log(teacher1.__proto__) //person
+  console.log(person1)//Person
+  console.log(Teacher.prototype.__proto__)//{constructor}
+  console.log(person1.__proto__)//{constructor}
+  console.log(person1.__proto__.__proto__)//{constructor}
+  console.log(person1.__proto__.__proto__.__proto__)//null
+  //2 times constructor
+  console.log(Person.prototype.__proto__.__proto__)//  null
   
   // console.log(teacher1.__proto__ === Teacher.prototype);
   // console.log(Teacher.prototype.__proto__ === Person.prototype);
