@@ -66,3 +66,57 @@ Person.prototype.increaseAge = function() {
   let e1 = new Employee("John", "Doe", 25, "frontend", 200000);
   console.log(e1);
   e1.eat();
+
+
+
+
+
+  // for (var i = 0; i < 5; i++) {
+  //   setTimeout(function() {
+  //     console.log(i);
+  //   }, 1000);
+  // }    5 times 5
+
+
+  // for (let i = 0; i < 5; i++) {
+  //   setTimeout(function() {
+  //     console.log(i);
+  //   }, 1000);
+  // }    0,1,2,3,4   after every 1 sec
+
+
+
+
+
+
+
+  // function curry(func) {
+
+    
+  //   return function curried(...args) { 
+                                      
+  //     if (args.length >= func.length) {
+  //       return func(...args);
+  //     }
+  //     else {
+  //       return function(...moreArgs) { 
+  //           console.log(...moreArgs)  
+  //         return curried(...args, ...moreArgs);
+  //       };               
+  //     }
+  //   };
+  // }
+  
+  // function addThreeNumbers(a, b, c) {
+  //   return a + b + c;
+  // }
+  // const curriedAdd = curry(addThreeNumbers);
+  // console.log(curriedAdd(1)(2)(3))
+  
+  
+  
+  
+  
+  
+  
+  
