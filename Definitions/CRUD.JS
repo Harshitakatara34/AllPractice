@@ -19,6 +19,7 @@
 //       } else {
 //         return `server responded with a ${res.status} error.`
 //       }
+
 //     } catch (error) {
 //       return 'error';
 //     }
