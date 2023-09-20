@@ -1,0 +1,25 @@
+function throttle(func, delay) {
+    let lastCalled = 0;
+    
+    return function () {
+      const now = Date.now();
+      
+      if (now - lastCalled >= delay) {
+        func();
+        lastCalled = now;
+      }
+    };
+  }
+  
+  // Example usage for throttling a function:
+  function showMessage() {
+    console.log("Button clicked!");
+  }
+  
+  const throttledShowMessage = throttle(showMessage, 1000);
+  
+  // Simulate button clicks
+  setInterval(function () {
+    throttledShowMessage();
+  }, 300); // Simulate multiple clicks within a short time
+  
