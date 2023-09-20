@@ -29,6 +29,4 @@
 
 // Composition: Combine smaller objects to build more complex ones, like building a car by putting together its parts.
 
-// Object-Oriented Analysis and Design (OOAD): A way to plan and design software by thinking about the objects, their relationships, and what they can do before writing code.
-
 // In simple terms, OOP in JavaScript helps us organize information and actions in a logical and reusable way, like building with Lego blocks to create things.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Debouncing Example</title>
+  </head>
+  <body>
+    <input type="text" id="search-input" placeholder="Search..." />
+    <div id="search-results"></div>
+
+    <script>
+      const searchInput = document.getElementById("search-input");
+      const searchResultsContainer = document.getElementById("search-results");
+      function debounce(delay) {
+        let timeoutId;
+        return function () {
+          clearTimeout(timeoutId);
+          timeoutId = setTimeout(() => {
+            const searchTerm = searchInput.value;
+            searchResultsContainer.textContent = "Searching for: " + searchTerm;
+          }, delay);
+        };
+      }
+      searchInput.addEventListener("input", debounce(3000));
+    </script>
+  </body>
+</html>

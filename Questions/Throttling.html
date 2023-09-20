@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Throttling Example</title>
+  </head>
+  <body>
+    <button id="throttle-button">Click Me (Throttled)</button>
+    <div id="throttle-result">Waiting for click...</div>
+
+    <script>
+      function throttle(func, delay) {
+        let throttling = false;
+
+        return function () {
+          if (!throttling) {
+            func();
+            throttling = true;
+            setTimeout(function () {
+              throttling = false;
+            }, delay);
+          }
+        };
+      }
+
+      // Example usage for throttling a button click:
+      const throttleButton = document.getElementById("throttle-button");
+      const throttleResult = document.getElementById("throttle-result");
+
+      function handleClick() {
+        throttleResult.textContent = "Button clicked!";
+        console.log("clicked")
+      }
+
+      const throttledClick = throttle(handleClick, 1000);
+
+      throttleButton.addEventListener("click", throttledClick);
+    </script>
+  </body>
+</html>
