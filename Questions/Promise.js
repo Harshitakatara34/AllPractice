@@ -65,4 +65,18 @@ const promise = new Promise((resolve, reject) => {
 //   setTimeout(() => console.log("Timeout!"), 500);
 //Timeout
 //Error:Rejected
+
+
+
+// ######################3============================================###################################
+// Promise Chaining
+// const promise = new Promise((resolve) => resolve(5));
+
+// promise
+//   .then((value) => value * 2)
+//   .then((value) => value + 3)
+//   .then((value) => value - 1)
+//   .then((result) => console.log(result));
+// output=12
+
   
