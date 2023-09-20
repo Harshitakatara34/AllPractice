@@ -69,7 +69,7 @@ const promise = new Promise((resolve, reject) => {
 
 
 // ######################3============================================###################################
-// Promise Chaining
+// Promise Chaining/Hell
 // const promise = new Promise((resolve) => resolve(5));
 
 // promise
