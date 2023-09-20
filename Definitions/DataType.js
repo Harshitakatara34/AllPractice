@@ -21,3 +21,22 @@
 4.//## Dynamic Typing
 
 // using the `typeof` operator to check types & change them dynamically (with two exeptions)
+
+
+
+// example datatypes difference premitive and non premitive
+
+// //================
+// let str1= 3
+// let str2 = str1
+// str2 = 3
+// console.log(str1===str2)  // false
+
+// //=============
+
+
+// const ar = [1,3,45]
+// const ar2 = ar
+// ar2.push(4)
+
+// console.log(ar===ar2) //true
