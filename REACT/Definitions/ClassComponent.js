@@ -1,6 +1,13 @@
 // Class Component are the javascript Classes that extends the React.Component class. they use render method to return
 // JSX elements . Class Components have their own internal state and lifecycle methods .
-// ex===> componentDidMount,componentDidUpdate,componentWillUnmount
+// ex===> componentDidMount,componentDidUpdate,componentWillUnmount,shouldComponentUpdate,componentDidCatch
+
+
+
+
+
+
+
 
 
 
