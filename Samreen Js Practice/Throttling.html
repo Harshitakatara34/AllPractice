@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="throttleid">Throttle</button>
+  </body>
+  <script>
+    function Throttle(func, delay) {
+      let id = false;
+
+      return function () {
+        if (!id) {
+          func();
+          id = true;
+          setTimeout(() => {
+            id = false;
+          }, delay);
+        }
+      };
+    }
+    const handleClick = () => {
+      console.log("Button Clicked!!");
+    };
+
+    const throttleFunc = Throttle(handleClick, 3000);
+    let throttlebtn = document.getElementById("throttleid");
+    throttlebtn.addEventListener("click", throttleFunc);
+  </script>
+</html>
+
+
+
+<!-- Definition ---===>
+
+   Throttling: Throttling is a technique that limits the rate at which a function can be invoked, ensuring it's not called more frequently than a specified time interval. -->
+
+   
+
+<!-- 1st time click par chalega, 
+  uske bad jitni bar bhi click kre ni chalega jabtak uska delay time poora ni hojata,
+   or bad me jaise time poora hoga delay agin chalega  -->
+

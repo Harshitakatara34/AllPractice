@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debouncing Example</title>
+  </head>
+  <body>
+    <button id="debounceButton">Debouncing</button>
+
+    <script>
+      let id;
+      function Debounceuse(func, delay) {
+        return function () {
+          if (id) {
+            clearTimeout(id);
+          }
+
+          id = setTimeout(() => {
+            func();
+          }, delay);
+        };
+      }
+
+      function handleButtonClick() {
+        console.log("Button is clicked");
+      }
+
+      const debounceClick = Debounceuse(handleButtonClick, 2000);
+
+      document
+        .getElementById("debounceButton")
+        .addEventListener("click", debounceClick);
+    </script>
+  </body>
+</html>
+
+
+<!-- Debouncing: ==>
+   Debouncing delays a function's execution until a specified time has passed since the last invocation, reducing unnecessary function calls, often used for events like button clicks.
+ -->      
+
+                          <!-- or-->
+
+
+ <!-- Debouncing: Debouncing is a technique that delays the execution of a function until after a specified time period has passed since the last invocation, effectively reducing the number of function calls, especially in scenarios like button clicks.  given some short  -->
+
+
+<!-- 1st click kre ge to jb tak time poora ni ho jata delay (2000)  poora ya any tab tak ni chalega.
+ -->
