@@ -26,7 +26,7 @@ function Counter() {
     <div>
       <h1>Counter</h1>
       <p>Count: {state.count}</p>
-      <button onClick={() => dispatch({ type: 'INCREMENT' })}>Increment</button>
+      {/* <button onClick={() => dispatch({ type: 'INCREMENT' })}>Increment</button>   // state ={ count: 1 } */}
     </div>
   );
 }
