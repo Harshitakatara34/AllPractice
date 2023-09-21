@@ -4,8 +4,6 @@
 
 
 
-import React, { memo } from 'react';
-// Functional component
 import React, { memo, useState } from 'react';
 
 const MyComponent = memo(({ message }) => {
@@ -13,19 +11,21 @@ const MyComponent = memo(({ message }) => {
   return <div>{message}</div>;
 });
 
-function App() {
-  const [message, setMessage] = useState('Hello, World!');
-
+function Memooo() {
+  const [message, setMessage] = useState("tempo");
+const[state,setState]=useState(0)
+console.log(state)
   const changeMessage = () => {
-    setMessage('New Message');
+    setMessage("gaadi");
+    setState(state+1)
   };
 
   return (
     <div>
-      <button onClick={changeMessage}>Change Message</button>
-      <MyComponent message={message} />
+      <button onClick={changeMessage} >Change Message</button>
+      <MyComponent message={message}  />
     </div>
   );
 }
 
-export default App;
+export default Memooo;
