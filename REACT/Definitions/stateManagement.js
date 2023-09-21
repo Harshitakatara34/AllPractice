@@ -1,0 +1,1 @@
+// class component have their own state ,which allows for more complex data handling and manipulation
