@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Temp from "./Components/Temp";
+import Memooo from "./Components/memo";
+import { Profiler } from "react";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+// import { Data } from './Components/Temp';
 function App() {
+  const onRenderCallback = (
+    id,
+    phase,
+    actualDuration,
+    baseDuration,
+    startTime,
+    commitTime
+  ) => {
+    // Log performance data
+    console.log(`Component ${id} took ${actualDuration}ms to render.`);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+        <Header />
+        <Profiler id="MyApp" onRender={onRenderCallback}>
+        <Footer />
+        </Profiler>
+        <Memooo />
+     
+
+      {/* <Dta/> */}
     </div>
   );
 }
