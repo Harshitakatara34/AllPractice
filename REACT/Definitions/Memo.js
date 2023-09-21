@@ -6,25 +6,24 @@
 
 import React, { memo } from 'react';
 // Functional component
-const MyComponent = ({ name }) => {
-  console.log('Rendering MyComponent');
-  return <div>{name}</div>;
-};
+import React, { memo, useState } from 'react';
 
-// Wrap the component with memo to optimize rendering
-const MemoizedComponent = memo(MyComponent);
+const MyComponent = memo(({ message }) => {
+  console.log('Rendering MyComponent');
+  return <div>{message}</div>;
+});
 
 function App() {
-  const [name, setName] = React.useState('John');
+  const [message, setMessage] = useState('Hello, World!');
 
-  const changeName = () => {
-    setName('Alice');
+  const changeMessage = () => {
+    setMessage('New Message');
   };
 
   return (
     <div>
-      <button onClick={changeName}>Change Name</button>
-      <MemoizedComponent name={name} />
+      <button onClick={changeMessage}>Change Message</button>
+      <MyComponent message={message} />
     </div>
   );
 }
