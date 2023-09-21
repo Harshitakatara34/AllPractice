@@ -14,9 +14,7 @@ const MyComponent = memo(({ message }) => {
 function Memooo() {
   const [message, setMessage] = useState("tempo");
 const[state,setState]=useState(0)
-console.log(state)
-  const changeMessage = () => {
-    setMessage("gaadi");
+  const changeMessage = () => {        
     setState(state+1)
   };
 
@@ -27,5 +25,9 @@ console.log(state)
     </div>
   );
 }
+
+// In this code when we click on button our state value gets update so our memo function will re-render because its state get
+// updated and when our memo function will re-render then out child component(Mycomponent) will render unnessaciarly as our
+// Mychild component stats are not updated still myComponent is re-rendering so to avoid it we use Memo .
 
 export default Memooo;

@@ -17,6 +17,7 @@ function ParentComponent() {
     return value1 + value2;      // it will only Calculate the value whenever anyone one value get updated.
   }, [value1, value2]);
 
+  
   return (
     <div>
       <input type="number" value={value1} onChange={(e) => setValue1(Number(e.target.value))} />
