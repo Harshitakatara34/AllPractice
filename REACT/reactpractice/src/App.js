@@ -7,6 +7,10 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 // import { Data } from './Components/Temp';
 // import SuspenseEx from "./Components/Suspense";
+// import MyComponent from "./Components/Suspense";
+// import { MyComponent } from "./Components/Suspense";
+import ClassComp from "./Components/ClassComp";
+import Funcmemo from "./Components/Funcmemo";
 import MyComponent from "./Components/Suspense";
 function App() {
   const onRenderCallback = (
@@ -23,12 +27,14 @@ function App() {
 
   return (
     <div className="App">
-    <MyComponent/>
-        <Header />
-        <Profiler id="MyApp" onRender={onRenderCallback}>
+  {/* <MyComponent/> */}
+  <ClassComp/>
+  <Funcmemo/>
+        {/* <Header /> */}
+        {/* <Profiler id="MyApp" onRender={onRenderCallback}>
         <Footer />
         </Profiler>
-        <Memooo />
+        <Memooo /> */}
      
 
       {/* <Dta/> */}

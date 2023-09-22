@@ -3,31 +3,29 @@
 // Suspense in React is a feature that makes it easier to handle asynchronous data fetching, 
 // like loading data from an API. It allows you to "suspend" rendering until the data is ready. 
 
-import React, { Suspense } from 'react';
+// import React, { Suspense, useState, useEffect } from 'react';
+// function MyComponent() {
+// const [data, setData] = useState(null);
+// useEffect(() => {
+// fetch('https://fakestoreapi.com/products') .then(response => response.json())
+// .then(data => setData(data))
+// }, []);
+// return (
+// <Suspense fallback={<div>Loading...</div>}>
+// <ul>
+// {data?.map(item => (
+// <li key={item.id}>{item.title}</li>
+// ))}
+// </ul>
+// </Suspense>
+// );
+// }
+// export default MyComponent
 
-const fetchData = () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve('Data loaded!');
-    }, 2000);
-  });
-};
 
-const DataComponent = () => {
-  const data = fetchData(); // Simulate async data fetching
 
-  return <div>{data}</div>;
-};
+// For data fetching using Suspense, you would typically need to use a library or approach 
+// designed specifically for that purpose, like Relay or concurrent mode with experimental APIs.
 
-function App() {
-  return (
-    <div>
-      <h1>Data Loading with Suspense</h1>
-      <Suspense fallback={<div>Loading...</div>}>
-        <DataComponent />
-      </Suspense>
-    </div>
-  );
-}
-
-export default App;
+// If you'd like to use Suspense for data fetching, you might consider exploring a 
+// library like Relay that's built on top of React and supports Suspense for data fetching. 

@@ -1,28 +1,18 @@
-import React, { Suspense } from 'react';
-
-const fetchData = () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve('Data loaded!');
-    }, 2000);
-  });
-};
-
-const AsyncComponent = ({ data }) => {
-  return <div>{data}</div>;
-};
-
-const MyComponent = () => {
-  const data = fetchData(); // Move data fetching outside the component
-
-  return (
-    <div>
-      <h1>Data Loading with Suspense</h1>
-      <Suspense fallback={<div>Loading...</div>}>
-        <AsyncComponent data={data} />
-      </Suspense>
-    </div>
-  );
-};
-
-export default MyComponent;
+// import React, { Suspense, useState, useEffect } from 'react';
+// function MyComponent() {
+// const [data, setData] = useState(null);
+// useEffect(() => {
+// fetch('https://fakestoreapi.com/products') .then(response => response.json())
+// .then(data => setData(data))
+// }, []);
+// return (
+// <Suspense fallback={<div>Loading...</div>}>
+// <ul>
+// {data?.map(item => (
+// <li key={item.id}>{item.title}</li>
+// ))}
+// </ul>
+// </Suspense>
+// );
+// }
+// export default MyComponent
