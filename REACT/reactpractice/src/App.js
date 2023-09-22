@@ -12,6 +12,7 @@ import Footer from "./Components/Footer";
 import ClassComp from "./Components/ClassComp";
 import Funcmemo from "./Components/Funcmemo";
 import MyComponent from "./Components/Suspense";
+import ParentComponent from "./Components/ChildToParent";
 function App() {
   const onRenderCallback = (
     id,
@@ -27,9 +28,10 @@ function App() {
 
   return (
     <div className="App">
+    <ParentComponent/>
   {/* <MyComponent/> */}
-  <ClassComp/>
-  <Funcmemo/>
+  {/* <ClassComp/> */}
+  {/* <Funcmemo/> */}
         {/* <Header /> */}
         {/* <Profiler id="MyApp" onRender={onRenderCallback}>
         <Footer />
