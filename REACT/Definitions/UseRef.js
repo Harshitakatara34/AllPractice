@@ -15,3 +15,8 @@
 
 //   return <input ref={myInputRef} />;
 // }
+
+
+
+
+// UseRef directly DOM ko manipulate krta h to ise thodas Hum avoid krte h kuki y react ki property ko follow ni krta.
