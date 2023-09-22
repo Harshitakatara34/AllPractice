@@ -1,6 +1,7 @@
 
+
 // Suspense in React is a feature that makes it easier to handle asynchronous data fetching, 
-// like loading data from an API. It allows you to "suspend" rendering until the data is ready.
+// like loading data from an API. It allows you to "suspend" rendering until the data is ready. 
 
 import React, { Suspense } from 'react';
 
