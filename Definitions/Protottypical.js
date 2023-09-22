@@ -2,8 +2,10 @@
 // The function manufecture and return the object that is called Factory function.
 
 // What is constructor function
-// Any `this` aware function that is intended to be called with the new
+// Any (`this` aware ) function that is intended to be called with the new
 // kwyword is called a constructor function.
+// start Capital letter.
+
 
 // or 
 
