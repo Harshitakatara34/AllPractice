@@ -13,6 +13,7 @@ import ClassComp from "./Components/ClassComp";
 import Funcmemo from "./Components/Funcmemo";
 import MyComponent from "./Components/Suspense";
 import ParentComponent from "./Components/ChildToParent";
+import MyComponent2 from "./Components/LazyInitialization";
 function App() {
   const onRenderCallback = (
     id,
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
     <ParentComponent/>
+    <MyComponent2/>
   {/* <MyComponent/> */}
   {/* <ClassComp/> */}
   {/* <Funcmemo/> */}

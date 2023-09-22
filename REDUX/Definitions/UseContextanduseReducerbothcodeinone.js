@@ -29,7 +29,7 @@ return (
 <button onClick={() => dispatch({ type: 'increment' })}>
 +
 </button>
-<button onclick={() => dispatch({ type: decrement })}>-
+<button onclick={() => dispatch({ type: "decrement" })}>-
 </button>
 </>
 );
