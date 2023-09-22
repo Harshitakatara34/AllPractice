@@ -1,4 +1,5 @@
-// A fragment in React is a way to group elements without introducing an extra DOM element. It's used for cleaner code and better performance, especially when working with lists or multiple elements.
+// a fragment in React is a way to group multiple elements without adding an extra DOM element.
+// It's used for cleaner rendering and better performance.
 
 // function App() {
 //     return (
@@ -8,4 +9,6 @@
 //       </>
 //     );
 //   }
-  
+
+// Why without it , it will show error ?
+// because JSX requires a single parent element to wrap all the children.
