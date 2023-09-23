@@ -1,0 +1,10 @@
+/* Media queries are CSS instructions that apply styles based on the screen characteristics.
+
+EXAMPLE======> */
+
+/* @media (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px */
+  /* body {
+    font-size: 16px;
+  }
+} */ 
