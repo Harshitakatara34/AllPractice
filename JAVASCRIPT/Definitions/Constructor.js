@@ -1,0 +1,2 @@
+// Constructor : A constructor in JavaScript is a function used to create objects with specific properties and behaviors. 
+//               It serves as a blueprint for object creation and can also include methods.
