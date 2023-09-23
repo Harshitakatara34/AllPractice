@@ -2,6 +2,8 @@
 // used continues to take up memory resources. This can lead to slow performance or crashes
 // if the memory usage continues to increase over time.
 
+
+
 // Example====>
 import React, { useEffect } from "react";
 const ExampleComponent = () => {
