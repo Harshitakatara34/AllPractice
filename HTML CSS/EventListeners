@@ -1,0 +1,14 @@
+// Event Listeners in HTML are JavaScript functions that respond to specific events on HTML elements.
+
+
+// Example ===
+
+// <button id="myButton">Click Me</button>
+
+// <script>
+//   const button = document.getElementById('myButton');
+
+//   button.addEventListener('click', function() {
+//     alert('Button was clicked!');
+//   });
+// </script>
