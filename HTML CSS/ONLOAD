@@ -9,5 +9,5 @@ onLoad===> Event Attribute
   <!-- Content of the page -->
 </body>
 
-
+//we can use these without addEventListener
 // When loading completes it will show alert page loaded .

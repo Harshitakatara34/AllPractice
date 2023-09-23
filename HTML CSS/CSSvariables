@@ -1,4 +1,4 @@
-CSS variables, or custom properties, are placeholders for values you want to reuse in your stylesheets.
+<!-- CSS variables, or custom properties, are placeholders for values you want to reuse in your stylesheets.
 
 
 
@@ -19,4 +19,4 @@ button {
 
 
 
-SYNTAX====> Variables start with -- (double hyphen) followed by a name.
+SYNTAX====> Variables start with -- (double hyphen) followed by a name. -->
