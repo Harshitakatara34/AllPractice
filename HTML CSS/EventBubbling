@@ -1,0 +1,26 @@
+Event bubbling is the default behavior where an event first triggers on the target element and then bubbles up through its ancestors in the DOM tree. Example:
+
+
+
+<div id="parent">
+  <button id="child">Click me</button>
+</div>
+
+
+(If we click on Child the first child button works and after that parent )
+
+
+
+
+
+
+
+
+
+<!-- document.getElementById('parent').addEventListener('click', () => {
+  console.log('Parent div clicked');
+});
+
+document.getElementById('child').addEventListener('click', () => {
+  console.log('Child button clicked');
+}); -->
