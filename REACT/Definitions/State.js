@@ -1,0 +1,1 @@
+// State: Internal, mutable data specific to a component, managed and updated within that component.
