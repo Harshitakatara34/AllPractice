@@ -1,0 +1,1 @@
+// Mutability: Data can be changed after creation, potentially leading to unintended side effects.

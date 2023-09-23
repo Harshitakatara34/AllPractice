@@ -1,0 +1,1 @@
+// Safely access object properties even if they or their parents are null or undefined using ?.

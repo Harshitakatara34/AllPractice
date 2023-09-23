@@ -1,0 +1,1 @@
+// Immutability: Data cannot be changed after creation, promoting predictability and safer code.
