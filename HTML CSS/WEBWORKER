@@ -1,0 +1,3 @@
+Web Worker: A separate JavaScript thread for background processing.
+
+Utilization for Performance: Offloads heavy tasks to prevent UI blocking, enhancing web app responsiveness.
