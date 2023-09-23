@@ -1,0 +1,3 @@
+Prototypical Inheritance in JavaScript relies on objects and prototypes. Objects inherit properties and behaviors directly from other objects through their prototype chain.
+
+Classical Inheritance is not native to JavaScript but is often emulated using constructor functions and the new keyword. It involves creating and inheriting from classes rather than objects directly.
