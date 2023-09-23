@@ -1,3 +1,3 @@
-// TypeScript is a statically-typed programming language that builds on JavaScript by adding a layer
-//  of type-checking, enabling developers to catch and prevent errors during development,
-//   leading to safer and more maintainable code.
+// TypeScript is like JavaScript but with added safety features. 
+// It helps developers catch and fix mistakes in their code before running it, 
+// making applications more reliable and easier to maintain.(Transpiled and Static Language)
