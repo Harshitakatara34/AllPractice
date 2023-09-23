@@ -1,16 +1,16 @@
 // USEREDUCER
 
-// React hook used to manage and update state in functional components by defining a reducer 
-// function that specifies how state changes in response to actions. 
+// React hook used to manage and update state in functional components by defining a reducer
+// function that specifies how state changes in response to actions.
 // It's particularly useful for complex state management scenarios.
 
 // Example===>
-import React, { useReducer } from 'react';
+import React, { useReducer } from "react";
 
 // Reducer function
 const counterReducer = (state, action) => {
   switch (action.type) {
-    case 'INCREMENT':
+    case "INCREMENT":
       return { count: state.count + 1 };
     default:
       return state;
