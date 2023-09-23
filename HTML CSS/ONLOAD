@@ -4,7 +4,7 @@ onLoad Event: Triggered when a web page or an element finishes loading.
 
 
 Example===>
-
+onLoad===> Event Attribute
 <body onload="alert('Page loaded!')">
   <!-- Content of the page -->
 </body>
