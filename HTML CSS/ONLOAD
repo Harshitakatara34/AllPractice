@@ -1,0 +1,13 @@
+
+onLoad Event: Triggered when a web page or an element finishes loading.
+
+
+
+Example===>
+
+<body onload="alert('Page loaded!')">
+  <!-- Content of the page -->
+</body>
+
+
+// When loading completes it will show alert page loaded .
