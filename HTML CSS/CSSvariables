@@ -1,0 +1,22 @@
+CSS variables, or custom properties, are placeholders for values you want to reuse in your stylesheets.
+
+
+
+
+
+Example=====>>>>
+(Agr hume same colour apni file m kai jgh chahiye to use baar baar likhne ki vajh hum css variable use kr skte h)
+
+:root {
+  --primary-color: #007bff;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+
+
+
+SYNTAX====> Variables start with -- (double hyphen) followed by a name.
