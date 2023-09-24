@@ -1,6 +1,7 @@
 // Pure Function: Always produces the same output for the same input and has no side effects.
 
 // Pure function
+
 // function add(a, b) {
 //     return a + b;
 //   }
