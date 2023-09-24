@@ -1,0 +1,1 @@
+// req.params: Used to access route parameters (e.g., /users/:id) and captures values from the URL.
