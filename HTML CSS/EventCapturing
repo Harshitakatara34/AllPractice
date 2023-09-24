@@ -1,0 +1,23 @@
+Event capturing is the opposite of bubbling; the event travels from the root down to the target element. You can explicitly enable it using the third argument in addEventListener.
+
+
+<div id="parent">
+  <button id="child">Click me</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- document.getElementById('parent').addEventListener('click', () => {
+  console.log('Parent div clicked during capturing phase');
+}, true); // Pass 'true' to enable capturing
+
+document.getElementById('child').addEventListener('click', () => {
+  console.log('Child button clicked');
+}); -->

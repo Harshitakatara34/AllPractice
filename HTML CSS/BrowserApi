@@ -1,0 +1,11 @@
+Sets of functions and methods provided by web browsers that allow JavaScript to interact with and manipulate web page content and behavior.
+
+
+Example===>
+const element = document.getElementById('myElement');
+element.style.backgroundColor = 'blue';
+
+
+
+
+In this example, we use the getElementById method provided by the browser's Document Object Model (DOM) API to select an HTML element with the ID "myElement." Then, we use the style property to set the background color to blue.

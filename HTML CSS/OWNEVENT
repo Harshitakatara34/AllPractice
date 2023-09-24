@@ -1,0 +1,1 @@
+Use the CustomEvent constructor to create custom events, define event properties, and dispatch them on DOM elements.
