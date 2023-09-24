@@ -31,3 +31,9 @@ newUser.save()
 //   In this example, we define a schema for a user with rules like "username must be between 4 and 20 characters" 
 //   and "age must be at least 18." Mongoose enforces these rules when saving data, ensuring that it meets the specified 
 //   criteria.
+
+
+
+
+// In Mongoose, think of data validation and schema enforcement like having a set of rules for a game. 
+// You define these rules for your data,
