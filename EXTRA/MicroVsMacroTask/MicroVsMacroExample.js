@@ -1,4 +1,4 @@
-console.log('Hello t1');
+console.log('Hello t1');                 
 
 setTimeout(() => {
     console.log('Hello t2');
@@ -9,6 +9,17 @@ Promise.resolve().then((val) => {
 });
 
 console.log('Hello t3');
+
+// Output
+// Hello t1
+// Hello t3
+// Promise Output
+// Hello t2
+
+
+
+
+
 
 
 // microtasks (such as those created by promises) are prioritized over macrotasks (such as setTimeout callbacks) in the event loop. 
