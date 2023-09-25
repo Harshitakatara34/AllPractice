@@ -6,6 +6,7 @@
 // To benchmark a specific function in Node.js, you can encapsulate that function within the console.time() 
 // and console.timeEnd() blocks
 
+
 // Define the function you want to benchmark
 // function timeConsumingOperation() {
 //     for (let i = 0; i < 1000000; i++) {
