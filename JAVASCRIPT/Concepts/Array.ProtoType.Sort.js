@@ -30,7 +30,9 @@
   
 //   console.log(shapes);
 
-
+// Trick for remember
+// sort((a,b)=>a-b)   if a is before b then a-b will be -1  
+//                    if a is after b then a-b will be 1
 
 
 

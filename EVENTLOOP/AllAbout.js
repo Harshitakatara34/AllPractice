@@ -1,3 +1,9 @@
+
+// The event loop is a JavaScript mechanism that ensures non-blocking and efficient execution of code, 
+// handling asynchronous tasks like callbacks and promises.
+
+
+
 // Heap===>Memory alloccate krte h
 // Call Stack===>isme jaate h function stack m 
 // WebApi===>asynchronous operation rehte h

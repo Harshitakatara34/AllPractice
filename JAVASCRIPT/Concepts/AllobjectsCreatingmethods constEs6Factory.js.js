@@ -20,6 +20,7 @@
 
 
 
+
 //Factory Function
 // function animal(noOfLegs, vegetarian) {
 //     let obj = {};
