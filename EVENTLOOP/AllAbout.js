@@ -3,6 +3,13 @@
 // handling asynchronous tasks like callbacks and promises.
 
 
+// It provides efficient execution of code without blocking the code .
+
+
+
+
+
+
 
 // Heap===>Memory alloccate krte h
 // Call Stack===>isme jaate h function stack m 
