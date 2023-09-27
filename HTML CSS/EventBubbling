@@ -1,4 +1,5 @@
-Event bubbling is the default behavior where an event first triggers on the target element and then bubbles up through its ancestors in the DOM tree. Example:
+<!-- Event bubbling is the default behavior where an event first triggers on the target element and then bubbles up through 
+its ancestors in the DOM tree. Example: -->
 
 
 
