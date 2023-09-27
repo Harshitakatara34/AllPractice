@@ -4,6 +4,7 @@
 
 
 
+
 import React, { memo, useState } from 'react';
 
 const MyComponent = memo(({ message }) => {

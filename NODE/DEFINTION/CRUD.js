@@ -8,6 +8,8 @@ db.collection('users').insertMany([
 ]);
 
 
+
+
 //READ
 // Find all documents in the collection
 db.collection('users').find({}).toArray();

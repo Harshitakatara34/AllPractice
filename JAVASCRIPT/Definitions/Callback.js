@@ -5,5 +5,6 @@
 
 
 
+
 // They are commonly used for asynchronous operations, handling events, and deferring logic to improve performance. 
 // Callbacks allow you to control the flow of your code and execute functions at the right time.
