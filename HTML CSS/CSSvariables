@@ -21,4 +21,4 @@ button {
 
 
 SYNTAX====> Variables start with -- (double hyphen) followed by a name. */
-SYNTAX====> Variables start with -- (double hyphen) followed by a name. -->
+/* SYNTAX====> Variables start with -- (double hyphen) followed by a name. --> */

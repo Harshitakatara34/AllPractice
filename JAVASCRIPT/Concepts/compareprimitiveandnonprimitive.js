@@ -5,6 +5,7 @@ let obj2={1:2}
 // reference the same object in memory.
 console.log(obj==obj2); //false
 
+
 let obj3={1:2}
 let obj4=obj3
 console.log(obj4==obj3) //true

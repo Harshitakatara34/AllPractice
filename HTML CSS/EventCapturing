@@ -1,4 +1,5 @@
-Event capturing is the opposite of bubbling; the event travels from the root down to the target element. You can explicitly enable it using the third argument in addEventListener.
+Event capturing is the opposite of bubbling; the event travels from the root down to the target element. 
+You can explicitly enable it using the third argument in addEventListener.
 
 
 <div id="parent">

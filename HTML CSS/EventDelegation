@@ -1,4 +1,5 @@
-Event delegation is a technique where you add a single event listener to a common ancestor of multiple elements you want to monitor. It's efficient for dynamically created elements and reduces the number of event handlers
+Event delegation is a technique where you add a single event listener to a common ancestor of multiple elements 
+you want to monitor. It's efficient for dynamically created elements and reduces the number of event handlers
 
 
 
