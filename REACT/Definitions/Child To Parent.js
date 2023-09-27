@@ -1,7 +1,6 @@
 // data will flow from parent to child but if we want to do it with child to parent
 
 
-
 // child to parent by passing a callback function as a prop
 
 
