@@ -1,7 +1,8 @@
 //Closure (JavaScript):
 
-//A closure is a function that retains access to variables from its outer scope even after the outer function has finished executing.
 
+//A closure is a function that retains access to variables from its outer scope even after the outer function has finished executing.
+// example===>UseEffect
 
 
 
