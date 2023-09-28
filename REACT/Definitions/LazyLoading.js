@@ -1,4 +1,5 @@
 // Lazy loading means loading things when you use them, not all at once.
+
 // Code splitting means breaking your code into smaller parts and loading them only 
 // when necessary for better performance.
 

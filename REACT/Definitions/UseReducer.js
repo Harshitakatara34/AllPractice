@@ -32,3 +32,5 @@ function Counter() {
 }
 
 export default Counter;
+// "dispatch" means sending a task, event, or message to the appropriate part of a program or system 
+// for processing or execution.

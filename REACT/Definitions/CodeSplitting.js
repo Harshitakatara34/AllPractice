@@ -4,8 +4,8 @@
 
 
 // code Splitting using lazy loading
-// import React, { Suspense } from 'react';
 
+// import React, { Suspense } from 'react';
 // // Lazy-load the component
 // const LazyComponent = React.lazy(() => import('./LazyComponent'));
 

@@ -3,12 +3,18 @@
 
 
 
+// CORS is a security measure in web browsers to prevent potentially harmful requests 
+// between different websites.
+
+
+
+
 
 
 // const cors = require('cors');
 
 
-
+// Cross-Origin Resource Sharing
 
 
 

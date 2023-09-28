@@ -1,4 +1,6 @@
-// Benchmarking is like comparing how fast or well something works compared to a known standard or other similar things.
+// Benchmarking is like comparing how fast or well something works 
+// compared to a known standard or other similar things.
+
 //  It helps us figure out if something is doing a good job or not.
 
 

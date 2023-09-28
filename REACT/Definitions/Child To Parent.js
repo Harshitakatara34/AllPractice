@@ -5,16 +5,15 @@
 
 
 
-
 import React, { useState } from 'react';
 // Child component
-function ChildComponent(props) {
+function ChildComponent({onDataReceived}) {
   // Define a local state in the child component
   const [childState, setChildState] = useState('');
 
   // Function to update the parent's state with data from the child
   const sendDataToParent = () => {
-    props.onDataReceived(childState);
+    onDataReceived(childState);
   };
 
   return (

@@ -1,7 +1,18 @@
 // Implementing Momoization in JavaScript.
+
+
+
+
 // Memoization is an optimization technique that can be used to reduce
 //time-consuming calculation by saving previous input to something called cache and 
 //returing the result from it.
+
+
+
+
+
+
+
 
 
 let sum = 0;

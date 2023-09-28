@@ -1,0 +1,1 @@
+// Node.js is a server-side JavaScript runtime that allows you to run JavaScript code on servers.

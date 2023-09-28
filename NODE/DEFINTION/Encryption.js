@@ -4,3 +4,5 @@
 //            messages on the blockchain using cryptographic techniques to make it unreadable to unauthorized users. 
 //            This ensures data confidentiality within the NEM ecosystem.
 
+
+// Securing data using cryptography to keep it private.
