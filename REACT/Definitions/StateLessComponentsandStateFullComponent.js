@@ -6,5 +6,5 @@
 
 
 
-// StateLess====>Functional Component
-// StateFull===>Class Component
+// StateLess====>Functional Component(Pure Component)
+// StateFull===>Class Component(Impure Component)

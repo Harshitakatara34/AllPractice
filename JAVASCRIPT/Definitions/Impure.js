@@ -8,7 +8,9 @@
 // }
 
 // addToTotal(5);
+
 // console.log(total); // Output: 5
 
-// addToTotal(3);
+
+// addToTotal(5);
 // console.log(total); // Output: 8 (Different output for the same function call)

@@ -2,5 +2,7 @@
 
 
 // 1.Global Context
-// 2.Implicit  (by obj)
+// 2.Implicit  (by obj.functionname)
 // 3.Explicit (call,apply)
+//4.Hard Binding(Bind)
+//5.constructor (new)
