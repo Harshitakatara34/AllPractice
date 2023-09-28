@@ -6,3 +6,4 @@
 // 3.Explicit (call,apply)
 //4.Hard Binding(Bind)
 //5.constructor (new)
+// 6 Arrow Function (does not bind it at all) -> (Arraw function determind where function will place or setting in our scope (laxical scope))

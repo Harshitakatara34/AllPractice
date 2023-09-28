@@ -2,7 +2,6 @@
 // used for short, one-time operations.
 
 
-
 // const add = function (a, b) {
 //     return a + b;
 //   };
