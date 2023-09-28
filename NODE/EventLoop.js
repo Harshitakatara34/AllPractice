@@ -8,7 +8,8 @@
 
 
 
-
+// Javascript==addEventListener 
+// Nodejs==>Reading a file 
 
 // These examples illustrate how the event loop is utilized differently in JavaScript (browser) and Node.js 
 // to manage various asynchronous tasks and events in their respective environments.
