@@ -1,5 +1,8 @@
 // Hoisting
 // The movement of variable declaration to top of scope - before execution
+// let===>Reference Error
+// const==>Syntax Error
+// var===>hoisting works
 
 // or
 
