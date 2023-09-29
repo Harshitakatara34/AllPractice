@@ -5,7 +5,8 @@
 // example===>UseEffect
 
 
-
+// Why??
+// They enable functions to "remember" and access their lexical (enclosing) environment
 
 
 
