@@ -9,9 +9,6 @@
 // They enable functions to "remember" and access their lexical (enclosing) environment
 
 
-
-
-
 //example
 // function outerFunction() {
 //     const outerVariable = "I am from the outer function";
