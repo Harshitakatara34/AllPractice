@@ -1,3 +1,5 @@
+
+
 // let shapes = [
 //     {sides: 4, color: 'red'},
 //     {sides: 1, color: 'blue'},
@@ -6,12 +8,11 @@
 //   ];
 
 
+// This code is for decending order 
+
+
 // shapes.sort(function(a, b) {
-//     console.log(a.color, b.color)
-//     // iteration: 1
-//     // a: {sides: 1, color: 'blue'}
-//     // b: {sides: 4, color: 'red'}
-  
+
 //      if (a.sides < b.sides) {
 //       return -1
 //      } 
@@ -22,6 +23,31 @@
   
 //      return 0;
   
+
+// output 
+// [object Array] (4)
+
+// [// [object Object] 
+// {
+//   "sides": 4,
+//   "color": "red"
+// },// [object Object] 
+// {
+//   "sides": 3,
+//   "color": "crange"
+// },// [object Object] 
+// {
+//   "sides": 2,
+//   "color": "dreen"
+// },// [object Object] 
+// {
+//   "sides": 1,
+//   "color": "blue"
+// }]
+
+
+
+
 //     // the logic can return 
 //     // 0 : a and b are of equal order
 //     // -1 : a should come before b 
@@ -62,8 +88,6 @@
   
 //   console.log(shapes);
   
-
-
 
 //   // How does array.prototype.sort works in javascript
 //   // its an array method
