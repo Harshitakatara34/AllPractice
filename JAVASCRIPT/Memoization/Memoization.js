@@ -7,6 +7,21 @@
 //time-consuming calculation by saving previous input to something called cache and 
 //returing the result from it.
 
+//Very Short Code
+// function memoize(func) {
+//     const cache = {};
+//     return (n) => (n in cache ? cache[n] : (cache[n] = func(n)));
+//   }
+  
+//   const multiplyByTwo = memoize((x) => x * 2);
+  
+//   console.log(multiplyByTwo(5)); // Calculates and returns 10
+//   console.log(multiplyByTwo(5)); // Returns the cached result 10
+  
+
+
+
+
 
 
 
