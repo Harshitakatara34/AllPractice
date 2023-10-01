@@ -16,12 +16,16 @@
   
 //     // the objects created with the Teacher function must 
 //     // have a property called `subject`
+
+
 //     this.subject = subject;
   
 //     // notice that we are not calling Person() with the new keyword
 //     // we are using it as a simple function
 //     // Using call, we are passing it our new `this` object and
 //     // the `Person()` function will stick the `name` property to `this` object
+
+
 //     Person.call(this, name);
   
 //     // a new object with `subject` and `name` poperty will be returned

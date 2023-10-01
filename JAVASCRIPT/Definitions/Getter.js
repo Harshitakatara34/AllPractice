@@ -1,6 +1,5 @@
 // Getter: A method that retrieves the value of a private or protected property.
 
-
 // Example==>
 class Circle {
     constructor(radius) {
