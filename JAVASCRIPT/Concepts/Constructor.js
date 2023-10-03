@@ -3,7 +3,6 @@
 // in our child class 
 
 
-
 // ES6
 
 // class Person {
@@ -37,8 +36,8 @@
 //     }
 //   }
 
-//   const teacher = new Teacher('Alice', 'Math');
-//   console.log(teacher)
+// const teacher = new Teacher('Alice', 'Math');
+// console.log(teacher)
 // console.log(teacher.sayHello()); // Output: Alice the Person, says Hello
 // console.log(teacher.teach()); // Output: Alice the Teacher, teaches Math
 
