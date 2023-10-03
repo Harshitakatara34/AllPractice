@@ -18,7 +18,7 @@ db.user.find({}).toArray();
 db.user.find({ age: { $gt: 25 } }).toArray();
 
 // Find a single document by ID
-db.user.findOne({ _id: ObjectId('609a677cac87a12345678901') });
+// db.user.findOne({ _id: 0bjectId('609a677cac87a12345678901') });
 
 
 //UPDATE

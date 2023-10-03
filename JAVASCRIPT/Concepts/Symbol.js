@@ -1,3 +1,6 @@
+// A unique and immutable data type in JavaScript used for creating property keys that are guaranteed to be unique.
+
+
 //Creating Symbol
 const mySymbol = Symbol();
 
