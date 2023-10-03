@@ -12,8 +12,6 @@
 
 
 
-
-
 // Scenario: Imagine you have a web application hosted on "https://example.com" that makes an HTTP request to retrieve data from "https://api.example.com," which is a different domain.
 
 // Without CORS: Without CORS, web browsers, for security reasons, would block this request, 

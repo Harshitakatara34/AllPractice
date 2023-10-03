@@ -15,6 +15,7 @@ function Component() {
  </div>                                                              
     );
   }
+  
 //   In summary, use onClick={() => handle(100)} when you need to pass specific 
 //   arguments to the event handler and use onClick={handleClick} when you don't 
 //   need to pass arguments directly and want to optimize performance by avoiding
