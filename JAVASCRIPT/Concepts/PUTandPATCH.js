@@ -15,3 +15,6 @@ PATCH
 // (https://api.example.com/products/123) with just the changes you want to make, like {"price": 29.99}. 
 // The server applies this change to the existing product, updating only the specified attribute (price) 
 // and leaving the rest of the product data unchanged.
+
+
+// PUT as a full replacement and PATCH as a partial update
