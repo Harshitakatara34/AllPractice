@@ -4,14 +4,6 @@
 
 
 
-
-
-
-
-
-
-
-
 import "./App.css";
 import { Profiler } from "react";
 import Header from "./Components/Header";

@@ -17,6 +17,7 @@ const withTimestamp = (WrappedComponent) => {
   );
 };
 
+
 // Your original component
 const Message = () => <p>Hello, world!</p>;
 
