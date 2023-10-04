@@ -1,1 +1,11 @@
 DOM API (Document Object Model Application Programming Interface) : A set of tools provided by web browsers for JavaScript to interact with and manipulate web page content and structure.
+
+
+
+
+<!-- The DOM is how JavaScript interacts with and manipulates web page content. -->
+
+
+
+
+<!-- . It represents the structure of a web page and allows programs to interact with and manipulate the content and structure of a webpage using code. -->
