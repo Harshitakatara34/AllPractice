@@ -13,6 +13,7 @@
 
 
 
-// try-catch is for synchronous error handling, async-await is for handling asynchronous code in a
-//  more synchronous style, .then is for handling successful promise resolutions, and .catch is for 
-//  handling promise rejections (errors).
+// try-catch is for synchronous error handling, 
+// async-await is for handling asynchronous code in a more synchronous style,
+//  .then is for handling successful promise resolutions, 
+//  and .catch is for handling promise rejections (errors).
