@@ -5,7 +5,7 @@
 
 
 // Reference Error 
-// Whenever the compiler will atry to access the variable from memeory from where it can't be able to accessed
+// Whenever the compiler will a try to access the variable from memeory from where it can't be able to accessed
 // then it will show refrence Error (temporal Dead Zone)
 
 //Syntax Error
