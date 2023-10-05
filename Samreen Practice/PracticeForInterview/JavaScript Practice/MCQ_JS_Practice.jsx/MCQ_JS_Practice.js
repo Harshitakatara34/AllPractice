@@ -242,3 +242,116 @@
 // Explanation: Promise.race resolves with the first promise that is resolved, so it logs "one" when promise1 resolves after 1000ms.
 
 
+//==================================
+
+// Question 1:
+
+// What does the this keyword refer to in JavaScript?
+
+// A) The current function's name.
+// B) The parent function's scope.
+// C) The current object or context.
+// D) The global object.
+
+// Answer: C) The current object or context.
+
+// Explanation: The this keyword in JavaScript typically refers to the current object or context in which a function is executed.
+
+
+//===========================
+
+// Dought  ================================
+
+// Question 3:
+
+// What does this refer to in an event handler function?
+
+// A) It refers to the event object.
+// B) It refers to the DOM element that triggered the event.
+// C) It refers to the parent function's context.
+// D) It refers to the null value.
+
+// Answer: B) It refers to the DOM element that triggered the event.
+
+// Explanation: In an event handler function, this typically refers to the DOM element that triggered the event.
+
+
+//===================================
+
+// What does this refer to inside an arrow function in JavaScript?
+
+// A) It refers to the global object.
+// B) It refers to the parent function's context.
+// C) It refers to the enclosing lexical context.
+// D) It refers to the null value.
+
+// Answer: C) It refers to the enclosing lexical context.
+
+// Explanation: In an arrow function, this is determined by the enclosing lexical (surrounding) context and does not have its own this binding.
+
+//=============================
+
+// const obj = {
+//     x: 10,
+//     getX() {
+//       return this.x;
+//     }
+//   };
+  
+//   const retrieveX = obj.getX;
+  
+//   const x = retrieveX();
+  
+//   console.log(x)
+  
+//   //undefined
+
+//----------------
+//solution 
+
+// const obj = {
+//     x: 10,
+//     getX() {
+//       return this.x;
+//     }
+//   };
+  
+//   const retrieveX = obj.getX.bind(obj); // Bind obj as the context
+  
+//   const x = retrieveX();
+  
+//   console.log(x); // Now it will correctly log 10
+
+//==========================================
+
+// Important question
+
+// function getFullName(firstName, lastName) {
+//     return `${this.firstName} ${this.lastName}`;
+//   }
+  
+//   const person = {
+//     firstName: 'John',
+//     lastName: 'Doe'
+//   };
+  
+//   const fullName = getFullName.call(person, 'Alice', 'Smith');
+  
+//   console.log(fullName); // Output should be "John Doe"
+
+
+//=======================
+
+// function getFullName(firstName, lastName, a, v) {
+//     return `${firstName} ${lastName}, ${a}, ${v}`;
+//   }
+  
+//   const person = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//   };
+  
+//   const fullName = getFullName.call(person, 'Alice', 'Smith', 'additionalA', 'additionalV');
+  
+//   console.log(fullName); // Output should be "John Doe, Alice, Smith, additionalA, additionalV"
+  
