@@ -17,4 +17,5 @@ PATCH
 // and leaving the rest of the product data unchanged.
 
 
+
 // PUT as a full replacement and PATCH as a partial update
