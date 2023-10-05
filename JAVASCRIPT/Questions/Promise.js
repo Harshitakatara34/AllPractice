@@ -8,6 +8,9 @@
 //     }
 //   })
 //   console.log(promise)
+
+
+
 // Output
 // Promise {<rejected>: 'rejected'}
 // [[Prototype]]
@@ -71,6 +74,7 @@ const promise = new Promise((resolve, reject) => {
 // ######################3============================================###################################
 // Promise Chaining/Hell
 // const promise = new Promise((resolve) => resolve(5));
+
 
 // promise
 //   .then((value) => value * 2)

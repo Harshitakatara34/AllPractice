@@ -17,5 +17,6 @@ function App() {
 }
 
 export default App;
+
 // Suspense is a React feature that allows you to handle asynchronous operations, including lazy 
 // loading, by specifying a fallback UI during loading.

@@ -1,0 +1,44 @@
+-- 1. *What is SQL?*
+--    - SQL stands for Structured Query Language, and it is a domain-specific language used for managing and querying relational databases.
+
+-- 2. *What are the different types of SQL commands?*
+--    - Common SQL commands include SELECT (query data), INSERT (add new records), UPDATE (modify existing records), DELETE (remove records), CREATE (create database objects), ALTER (modify database objects), and DROP (delete database objects).
+
+-- 3. *What is a relational database management system (RDBMS)?*
+--    - An RDBMS is software used to create, manage, and interact with relational databases. Examples include MySQL, PostgreSQL, Oracle, and Microsoft SQL Server.
+
+-- 4. *What is a table in a database?*
+--    - A table is a database object that stores data in rows and columns. It represents a specific entity or concept and is the fundamental structure for organizing data.
+
+-- 5. *What is a primary key?*
+--    - A primary key is a unique identifier for each record in a table. It ensures that each row in the table is uniquely identifiable and enforces data integrity.
+
+-- 6. *What is a foreign key?*
+--    - A foreign key is a field in a table that establishes a link between two tables. It enforces referential integrity by ensuring that values in the foreign key column match values in the primary key of another table.
+
+-- 7. *What is SQL injection, and how can it be prevented?*
+--    - SQL injection is a type of cyberattack where malicious SQL code is inserted into input fields to manipulate a database. Prevention methods include using parameterized queries, input validation, and escaping user inputs.
+
+-- 8. *Explain the difference between SQL JOINs (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN).*
+--    - JOIN operations combine data from two or more tables based on a related column. INNER JOIN returns matching rows, LEFT JOIN returns all rows from the left table and matching rows from the right table, RIGHT JOIN returns all rows from the right table and matching rows from the left table, and FULL JOIN returns all rows from both tables.
+
+-- 9. *What is normalization? Why is it important in a database?*
+--    - Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing tables into smaller, related tables and defining relationships between them.
+
+-- 10. *How do you retrieve data from a database using the SELECT statement?*
+--     - To retrieve data, use the SELECT statement followed by the columns you want to retrieve from a specific table. For example, `SELECT column1, column2 FROM tablename WHERE condition;`.
+
+-- 11. *What is the difference between the WHERE and HAVING clauses in SQL?*
+--     - The WHERE clause is used to filter rows before they are grouped, while the HAVING clause filters grouped results. HAVING is typically used with aggregate functions like COUNT or SUM.
+
+-- 12. *What is an index in a database, and why is it useful?*
+--     - An index is a database structure that improves query performance by enabling faster data retrieval. It works like a book index, allowing the database to locate data more efficiently.
+
+-- 13. *Explain the ACID properties in the context of database transactions.*
+--     - ACID stands for Atomicity (transactions are all or nothing), Consistency (transactions bring the database from one consistent state to another), Isolation (transactions are isolated from each other), and Durability (committed transactions are permanent).
+
+-- 14. *What is a subquery, and how is it different from a JOIN?*
+--     - A subquery is a query nested inside another query. It can return a single value or a result set. Unlike JOINs, subqueries are used to retrieve data for a specific condition or calculation within a query.
+
+-- 15. *What is the difference between a clustered and a non-clustered index?*
+--     - A clustered index determines the physical order of data rows in a table, while a non-clustered index is a separate structure that provides a way to look up data rows. A table can have only one clustered index but multiple non-clustered indexes.
