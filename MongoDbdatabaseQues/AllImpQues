@@ -65,3 +65,20 @@ Certainly! Here are the answers to the MongoDB interview questions I provided ea
     - Data can be backed up and restored in MongoDB using the `mongodump` and `mongorestore` command-line tools, respectively, or by using a database backup service.
 
 These answers should help you understand the basic concepts of MongoDB and prepare for MongoDB-related interviews as a fresher.
+
+
+
+Sharding is like dividing a big book into smaller chapters and storing each chapter in a different library to handle lots of readers.
+Sharding is a technique for distributing data across multiple servers or nodes to improve scalability and performance in a database system.
+
+
+
+
+Indexing is like creating a table of contents in the book so you can quickly find specific information without reading the whole book.
+
+
+
+
+**Sharding** is like dividing a big book into smaller chapters and storing each chapter in a different library to handle lots of readers. 
+
+**Indexing** is like creating a table of contents in the book so you can quickly find specific information without reading the whole book.
