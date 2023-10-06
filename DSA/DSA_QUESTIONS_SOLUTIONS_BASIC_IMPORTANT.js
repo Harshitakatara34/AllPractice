@@ -295,3 +295,46 @@
 // }
 
 // pattern5(4);
+
+
+//==============================
+
+// function maxSumSubaray(arr,n){
+
+//     for(let i=0; i<n; i++){
+//   let bag = []
+//       for(let j=i; j<n; j++){
+  
+//         bag.push(arr[j])
+  
+//         console.log(bag)
+//       }
+//     }
+//   }
+  
+//   maxSumSubaray([1,3,4,5,6], 5)
+
+
+//================================
+
+// Subarray
+
+
+// function maxSumSubaray(arr,n){
+
+//     for(let i=0; i<n; i++){
+//   let bag = []
+//       for(let j=i; j<n; j++){
+  
+//         bag.push(arr[j])
+  
+//         console.log(bag)
+//       }
+//     }
+//   }
+  
+//   maxSumSubaray([1,3,4,5,6], 5)
+
+
+//============================================
+
