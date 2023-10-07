@@ -11,6 +11,7 @@
 
 <!-- 1. Simple Selector -->
 <!-- 
+
 a. Element Selectors (Tag Selectors)
 b. Id Selector
 c. Class Selector
@@ -23,7 +24,7 @@ e. Grouping Selector -->
 
 <!-- Example: -->
 
-<!-- <h1></h1>
+<!-- <h1>k</h1>
 
 <style>
   h1{
@@ -138,7 +139,7 @@ b. Child Selectors (>)
   }
 </style>
 
-// 1st div p will red -->>   <p>f</p> , <p>d</p> -->
+ // 1st div p will red --> <!-- <p>f</p> , <p>d</p>   -->
 
 <!-- //=================================== -->
 
@@ -271,3 +272,59 @@ Example
   }
 
 </style> -->
+
+
+<!-- //=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%============== -->
+
+
+<!-- //+++++++++++++++++++++++++++++++++ -->
+
+<!-- (space)  => all 
+(>) => perticular element
++ => h1 + p (first)
+~ => ALL P -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #main {
+        color: red;
+      }
+
+      #main > p {
+        color: blue;
+      } */
+
+      /* h1 + p{
+        color: red;
+      } */
+
+      
+      h1 ~ p{
+        color: red;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <!-- <div id="main">
+      <p>hh</p>
+      <p>jj</p>
+      <div>
+        <p>kk</p>
+        <p>ll</p>
+      </div>
+    </div> -->
+
+    <h1>jj</h1>
+    <p>jk</p>
+    <p>lll</p>
+    <p>gg</p>
+
+  </body>
+</html>
