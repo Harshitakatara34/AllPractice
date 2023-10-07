@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        
+      /* //====================== */
+      /* center 1 without parent meand body parent*/
+
+      /* #main {
+        border: 1px solid red;
+        color: red;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        height: 200px;
+        margin: auto; 
+      } */
+
+      /* //====================== */
+      /* center 2 without parent meand body parent*/
+
+      /* 
+      #main{
+        border: 1px solid red;
+        color: red;
+        width: 200px;
+        display: grid;
+        background-color: yellow;
+        height: 200px;
+        margin: auto;
+        place-content: center;
+      } */
+
+      /* //====================== */
+      /* center 3 */
+
+      #main1 {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+      }
+
+      #main {
+        border: 1px solid red;
+        color: red;
+        width: 200px;
+        background-color: yellow;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main1">
+      <div id="main"></div>
+    </div>
+  </body>
+</html>
