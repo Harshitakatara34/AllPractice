@@ -1,19 +1,273 @@
+<!-- Selectors in HTML and CSS are patterns used to target and style specific elements in a web page's document object model (DOM). -->
+
+<!-- CSS Selectors Category:
+
+1. Simple Selectors
+2. Combinator Selectors
+3. Attribute Selectors
+4. Pseudo-class Selectors
+5. Pseudo-elements Selectors -->
 
 
-<!-- Selector specificity in CSS determines which styles take precedence when multiple rules target the same element, with higher specificity values winning. -->
+<!-- 1. Simple Selector -->
+<!-- 
+a. Element Selectors (Tag Selectors)
+b. Id Selector
+c. Class Selector
+d. Universal Selector
+e. Grouping Selector -->
 
-<!-- example : selector and style- inline 1000, id # 100, 
-class ., :hower, :nthchild, 10,
- tag or div p h and pseudo - ::before, ::after , 1
-  etc. -->
+<!-- //===================================== -->
 
-  
-  <!-- example -->
-<!--   
-p {
-    color: green;
+<!-- a. Element Selectors (Tag Selectors) -->
+
+<!-- Example: -->
+
+<!-- <h1></h1>
+
+<style>
+  h1{
+    color: red;
   }
-  
-  .container p {
-    color: orange;
-  } -->
+</style> -->
+
+<!-- //======================= -->
+
+<!-- b. Id Selector -->
+
+<!-- <h1 id="main"></h1>
+
+<style>
+  #main{
+    color: red;
+  }
+</style> -->
+
+<!-- //============================== -->
+
+<!-- c. Class Selector -->
+
+<!-- <h1 class="main"></h1>
+
+<style>
+  .main{
+    color: red;
+  }
+</style> -->
+
+<!-- //=================================== -->
+
+<!-- d. Universal Selector -->
+<!-- 
+<style>
+*{
+  margin: 0;
+}
+</style>  -->
+
+<!-- //=================================== -->
+
+
+<!-- e. Grouping Selector  -->
+<!-- 
+<div>
+  <h1>Hello</h1>
+  <p>bye</p>
+<h2>hii</h2>
+</div> -->
+
+<!-- <style>
+  h1,p,h2{
+    color: red;
+  }
+</style>  -->
+
+<!-- //=======%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%============== -->
+
+<!-- 2. Combinator Selectors -->
+<!-- 
+a. Descendant Selectors (space)
+b. Child Selectors (>)
+c. Adjacent Sibling Selectors (+)
+d. General Sibling Selectors (~) -->
+
+<!-- //============================= -->
+
+<!-- a. Descendant Selectors (space) -->
+
+<!-- Example: -->
+
+<!-- 
+<div class="box">
+  <p>f</p>
+  <p>d</p>
+  <div>
+    <p>b</p>
+    <p>n</p>
+  </div>
+</div>
+
+//------------
+
+<style>
+ .box p {
+   color: red;
+ }
+</style>
+
+// All p will red color -->
+
+<!-- //=================================== -->
+<!-- 
+b. Child Selectors (>)
+
+<div class="box">
+  <p>f</p>
+  <p>d</p>
+  <div>
+    <p>b</p>
+    <p>n</p>
+  </div>
+</div>
+
+//-------------------
+
+<style>
+  .box > p {
+    color: red;
+  }
+</style>
+
+// 1st div p will red -->>   <p>f</p> , <p>d</p> -->
+
+<!-- //=================================== -->
+
+<!-- c. Adjacent Sibling Selectors (+) -->
+<!-- 
+<body>
+  <h1>Hello</h1>
+  <p>bye</p>
+  <p>hii</p>
+  <p>Morning</p>
+  <p>Night</p>
+</body>
+
+//--------------------
+
+<style>
+h1 + p {
+    color: red;
+  }
+</style>
+
+ // 1st p will red -  <p>bye</p>
+
+ //=================================== -->
+
+<!-- d. General Sibling Selectors (~) -->
+<!-- 
+<body>
+  <h1>Hello</h1>
+  <p>bye</p>
+  <p>hii</p>
+  <p>Morning</p>
+  <p>Night</p>
+</body>
+
+//--------------------
+
+<style>
+h1 ~ p {
+    color: red;
+  }
+</style>
+
+// All p will red -  <p>bye</p> -->
+
+
+<!-- //=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%============== -->
+
+<!-- 3. Attribute Selectors -->
+
+<!-- 
+Example
+<input type="text"> 
+
+//=====================
+ 
+<body>
+  <h2>Form</h2>
+  <input type="text" name="" id="">
+  <input type="text" name="" id="">
+  <input type="email" name="" id="">
+</body>
+
+//=====================
+
+<style>
+  input[type="text"]{
+    border: 2px solid red;
+  }
+</style>
+ -->
+
+<!-- //=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%============== -->
+ 
+<!-- 4. Pseudo-class Selectors -->
+
+<!-- 
+<body>
+  <h1>Hello</h1>
+</body>
+
+<div>
+  <p>Good Morning</p>
+  <p>Lorning</p>
+  <p>Good Night</p>
+  <p>Heel</p>
+</div>
+
+//================
+
+<style>
+
+  h1:hover {
+    color: rebeccapurple;
+  }
+
+  .box p:first-child {
+    colar: red;
+  }
+
+  .box p:last-child {
+    color: red;
+  }
+
+  .box p:nth-child(2) {
+    color: red;
+  }
+</style> -->
+
+
+<!-- //=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%============== -->
+
+<!-- 5. Pseudo-elements Selectors -->
+
+<!-- 
+::after, ::before, ::first-letter, ::first-line, ::selection, ::placeholder 
+
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid necessitatibus et recusandae. Sed consequuntur hic iusto. Eaque natus magni omnis adipisci corporis maxime cumque, explicabo optio unde porro perspiciatis quisquam?
+</p>
+
+<style>
+  p::first-letter{
+    color: red;
+    font-size: 40px;
+  }
+
+  p::first-line{
+    color: red;
+  }
+
+</style> -->

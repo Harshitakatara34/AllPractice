@@ -1,0 +1,12 @@
+<!-- The Document Object Model (DOM) is a programming interface for web documents that represents the page's structure and content, allowing scripts to interact with and manipulate it dynamically. -->
+
+
+<!-- 1. Document: A web document, typically HTML or XML, represents the content and structure of a web page. -->
+
+<!-- 2. Object: In programming, an object is a self-contained unit containing data and methods. -->
+<!-- An object example: A car with attributes like color and speed, and methods like start and stop. -->
+
+<!-- attribute - > src and alt are attributes of the <img> -->
+
+
+<!-- 3. Model: A model, in the context of the DOM, is a structured representation of a web document, organizing its elements for programmatic interaction. -->
