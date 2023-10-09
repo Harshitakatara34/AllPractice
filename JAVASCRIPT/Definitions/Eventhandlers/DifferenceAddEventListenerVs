@@ -1,0 +1,9 @@
+<!-- onclick Property:
+
+The onclick property is an older way of adding event handlers directly to HTML elements. It is commonly used for quick and simple interactions.
+
+
+
+addEventListener Method:
+
+The addEventListener method is a more modern and flexible way to attach event handlers to elements in JavaScript. -->

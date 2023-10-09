@@ -1,3 +1,0 @@
-Event Propagation: Event propagation refers to the flow of an event through the DOM tree. 
-When an event occurs on an element, it can propagate in two phases: capturing phase (from the root to the target) 
-and bubbling phase (from the target back to the root).
