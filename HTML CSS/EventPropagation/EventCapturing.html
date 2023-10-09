@@ -1,4 +1,4 @@
-Event capturing is the opposite of bubbling; the event travels from the root down to the target element. 
+<!-- Event capturing is the opposite of bubbling; the event travels from the root down to the target element. 
 You can explicitly enable it using the third argument in addEventListener.
 
 
@@ -7,12 +7,7 @@ You can explicitly enable it using the third argument in addEventListener.
 </div>
 
 
-
-
-
-
-
-
+ -->
 
 
 <!-- document.getElementById('parent').addEventListener('click', () => {
@@ -22,3 +17,78 @@ You can explicitly enable it using the third argument in addEventListener.
 document.getElementById('child').addEventListener('click', () => {
   console.log('Child button clicked');
 }); -->
+
+
+<!-- Code Example -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+   
+       body {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        align-items: center;
+        /* place-content: center; */
+      }
+
+
+      #div-parent {
+        width: 400px;
+        background-color: rgb(47, 102, 255);
+        height: 400px;
+        /* justify-content: center; */
+        place-content: center;
+        display: flex;
+        align-items: center;
+      }
+
+
+      #div-child {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div-parent"> 
+      <div id="div-child"></div>
+    </div>
+  </body>
+</html>
+
+<script>
+
+  const parent = document.getElementById('div-parent')
+  const child = document.getElementById('div-child')
+
+  parent.addEventListener('click', (e)=>{
+    e.preventDefault()
+    console.log(`Click Parent`)
+    alert(`Clicked Parent`)
+    
+  }, true)
+
+  
+  child.addEventListener('click', (e)=>{
+    e.preventDefault()
+    console.log(`Click Child`)
+    alert(`Clicked Child`)
+    e.stopPropagation()   
+    
+  },true)
+
+
+</script>
+
+
+<!-- addEventListener given a 3 parameter, so last parameter is worked  -->
