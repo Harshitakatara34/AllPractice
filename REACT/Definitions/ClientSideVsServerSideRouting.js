@@ -1,0 +1,3 @@
+// client side routing - the routing which handle by JavaScript browser, it is used client side is used to frontend and install the libraries is react-router-dom. navigate one page to other page it react is single page application but it feel like other page using routes.
+
+// server-side-routing - it is the server side routing is backend routing but it is a full page load when go to another page  because it is a new HTML page. it goes to one page o another page all pages are re-render and reload. and some time loading speed so the slow works because of re loading.

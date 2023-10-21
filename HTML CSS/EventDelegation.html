@@ -1,0 +1,31 @@
+<!-- Event delegation is a technique where you add a single event listener to a common ancestor of multiple elements 
+you want to monitor. It's efficient for dynamically created elements and reduces the number of event handlers -->
+
+<!-- or  -->
+
+<!-- A technique where you add a single event listener to a parent element on its child elements. -->
+
+
+<ul id="myList">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+<script>
+  const myList = document.getElementById("myList");
+
+  myList.addEventListener("click", (event) => {
+    if (event.target.tagName === "LI") {
+      console.log(`Clicked on ${event.target.textContent}`);
+    }
+  });
+</script>
+
+<!-- With event delegation, a single event listener on the
+<ul>
+  element captures click events for all
+  <li>elements within it, simplifying the code.</li>
+</ul> -->
+
+

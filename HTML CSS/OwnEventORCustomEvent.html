@@ -1,0 +1,37 @@
+<!-- Use the CustomEvent constructor to create custom events, define event
+properties, and dispatch them on DOM elements. -->
+
+
+<!-- Example -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  addEventListener("hii", () => {
+    alert(`hi custom event`);
+  });
+
+  let event = new Event("hii", { bubbles: true });
+
+  document.dispatchEvent(event);
+</script>
+
+
+
+<!-- Explanation only for understanding-->
+
+<!-- {bubbles: true } -> means event capturing  -->
+
+<!-- This line creates a new custom event of type "hii" and specifies bubbles: true. This means that when you dispatch this event, it will follow the event propagation path up through the DOM tree, allowing ancestor elements to capture the event. -->
+
+<!-- Finally, this line dispatches the custom event on the document element. Since bubbles is set to true, the event will bubble up through the DOM tree, and if there are any ancestor elements with event listeners for "hii", they will also receive the event.
+
+In your specific code, there are no ancestor elements with event listeners, but in a more complex HTML structure, this bubbling behavior could be useful to capture and handle custom events at different levels of the DOM tree. -->

@@ -6,15 +6,6 @@
 // console.log(add(2)(3))
 
 
-
-
-
-
-
-
-
-
-
 // function curry(func) {
 
     
@@ -41,3 +32,57 @@
 
 // const curriedAdd = curry(addThreeNumbers);
 // console.log(curriedAdd(1)(2)(3))
+
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+//My practice
+
+
+// 1.
+
+// function curringFun(a){
+//   return function(b){
+//     return function(c){
+//       return function(d){
+//         return function(e){
+//          console.log(a,b,c,d,e)
+//         }
+//       }
+//     }
+//   }
+// }
+
+//  curringFun(2)(3)(4)(6)(9)
+
+//=============================
+//2.
+
+// function curringFun(a){
+//   return function(b){
+//     return function(c){
+//       return function(d){
+//         return function(e){
+//          return (a+b+c+d+e)
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// let c1 = curringFun(2)(3)(4)(6)(9)
+// console.log(c1)
+
+
+//============================
+//3.
+
+// const curringFun = (a) => (b) => (c) => (d) => (e) => (a+b+c+d+e)
+    
+
+
+// let c1 = curringFun(2)(3)(4)(6)(9)
+// console.log(c1)
+
+//=========================

@@ -1,0 +1,116 @@
+<!-- Event bubbling is the default behavior where an event first triggers on the target element and then bubbles up through 
+its ancestors in the DOM tree. Example: -->
+
+<!-- 
+<div id="parent">
+  <button id="child">Click me</button>
+</div> -->
+
+
+<!-- (If we click on Child the first child button works and after that parent ) -->
+
+
+
+
+<!-- document.getElementById('parent').addEventListener('click', () => {
+  console.log('Parent div clicked');
+});
+
+document.getElementById('child').addEventListener('click', () => {
+  console.log('Child button clicked');
+}); -->
+
+
+<!-- 
+
+//+++++++++++++++++++++++++++++++++++++++++++
+
+//Example live -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1.  --> both are given in center (justify center or place-content center) */
+      /* big div in center (body) */
+
+      /* margin: 0; sets all margin values (top, right, bottom, and left) to zero, effectively removing any default spacing around the elemen */
+
+
+/* //========================================================== */
+/* my understanding perpose */
+/* 
+ min-height provide the content height autometacly increase or argest as our child content - means not over flow 
+
+ min-height and max-height both are given means max to min content parent height in between any child existe so not over flow but not between exist cild then over flow condition */
+
+ /* //========================================================== */
+
+
+       body {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        align-items: center;
+        /* place-content: center; */
+      }
+
+
+      #div-parent {
+        width: 400px;
+        background-color: blueviolet;
+        height: 400px;
+        /* justify-content: center; */
+        place-content: center;
+        display: flex;
+        align-items: center;
+      }
+
+      /* 2. div-parent so center the div-child used (justify content center or place-content: center; )  */
+      /* align-items : center is used to center in middle of child-div (means left right to botton se akdm center me) */
+
+      #div-child {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div-parent"> 
+      <div id="div-child"></div>
+    </div>
+  </body>
+</html>
+
+<script>
+
+  const parent = document.getElementById('div-parent')
+  const child = document.getElementById('div-child')
+
+  parent.addEventListener('click', (e)=>{
+    e.preventDefault()
+    console.log(`Click Parent`)
+    alert(`Clicked Parent`)
+    
+  })
+
+  
+  child.addEventListener('click', (e)=>{
+    e.preventDefault()
+    console.log(`Click Child`)
+    alert(`Clicked Child`)
+    // e.stopPropagation()   
+    
+  })
+
+  // Problem clicked child so perent will also worked - concept of event bubling (it is a default behaviour)
+ // clicked parent so only parent will render worked.
+
+//     e.stopPropagation()   used to stop this behaviour.
+
+</script>
