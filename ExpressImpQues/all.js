@@ -124,4 +124,4 @@
 //     You can set up sessions in an Express.js application using the `express-session` middleware. Here's an example of how to set it up:
 
 //     ```javascript
-//     const session = require('express-session
+//     const session = require('express-session')
