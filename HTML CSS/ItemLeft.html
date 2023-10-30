@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left-align {
+        margin-right: auto;
+      }
+
+      .flex-item {
+        padding: 10px;
+        border: 1px solid red;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .container:hover div:nth-child(2) {
+        transform: rotate(20deg);
+      }
+
+      div + p {
+        border: 1px solid red;
+      }
+      .box > div {
+        box-sizing: border-box;
+        width: 223px;
+        padding: 10px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="flex-container">
+      <div class="flex-item">item 1</div>
+      <div class="flex-item left-align">item 2</div>
+      <div class="flex-item">item 3</div>
+    </div>
+
+    <div class="container">
+      <div>First Child</div>
+      <div>Second Child</div>
+      <div>Third Child</div>
+    </div> -->
+
+    <div>
+      <p>1</p>
+    </div>
+
+    <div class="box">
+      <div></div>
+      <div></div>
+    </div>
+    <!-- -->
+  </body>
+</html>
