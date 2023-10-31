@@ -31,6 +31,13 @@ console.log('Hello t3');
 //=================
 //Execution part============
 
+
+
+
+
+
+
+
 //Microtask Queue: Microtasks, including promise callbacks (.then() and .catch()), are added to the microtask queue. When the call stack is empty (i.e., there are no synchronous tasks being executed), the event loop checks the microtask queue for tasks to execute.
 
 //Macrotask Queue: Macrotasks, such as those created by setTimeout, are added to the macrotask queue. The event loop checks this queue only after it has cleared all available microtasks from the microtask queue.
