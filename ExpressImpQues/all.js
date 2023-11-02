@@ -11,7 +11,6 @@
 
 // It is a web application framework for Node.js, and it is commonly used as a Node.js module to build web applications and APIs. Express.js provides a set of features and tools to handle routing, middleware, HTTP requests, and more, making it easier to develop web applications in Node.js.
 
-
 // const express = require('express');
 // const app = express();
 
