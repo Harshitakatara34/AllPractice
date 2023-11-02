@@ -1,14 +1,14 @@
-console.log('Hello t1');                 
+console.log("Hello t1");
 
 setTimeout(() => {
-    console.log('Hello t2');
+  console.log("Hello t2");
 }, 1000);
 
 Promise.resolve().then((val) => {
-    console.log('Promise Output');
+  console.log("Promise Output");
 });
 
-console.log('Hello t3');
+console.log("Hello t3");
 
 // Output
 // Hello t1
@@ -16,13 +16,7 @@ console.log('Hello t3');
 // Promise Output
 // Hello t2
 
-
-
-
-
-
-
-// microtasks (such as those created by promises) are prioritized over macrotasks (such as setTimeout callbacks) in the event loop. 
+// microtasks (such as those created by promises) are prioritized over macrotasks (such as setTimeout callbacks) in the event loop.
 
 //microtasks (like promise callbacks) execute before macrotasks (like setTimeout callbacks):
 
@@ -30,13 +24,6 @@ console.log('Hello t3');
 
 //=================
 //Execution part============
-
-
-
-
-
-
-
 
 //Microtask Queue: Microtasks, including promise callbacks (.then() and .catch()), are added to the microtask queue. When the call stack is empty (i.e., there are no synchronous tasks being executed), the event loop checks the microtask queue for tasks to execute.
 
