@@ -1,5 +1,5 @@
-// useRef is a React Hook that provides a reference to a mutable object(key current). It's often used to access
-// and interact with DOM elements directly or to persist values across renders without causing re-renders.
+// useRef is a hook in React that provides a way to keep mutable values that persist across 
+// renders without causing a re-render.
 
 
 // Example:===>

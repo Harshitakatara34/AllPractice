@@ -1,5 +1,16 @@
+// In normal functions, this is dynamically bound based on how the function is called.
+// In arrow functions, this is lexically scoped, and it inherits the value from the surrounding (lexical) scope.
+
+
+
+
+
+
+
+
+
 // // var person = {
-// //     firstName: "John",
+// //     firf stName: "John",
 // //     lastName: "Doe",
 // //     getFullName: function() {
 // //       return this.firstName + " " + this.lastName;

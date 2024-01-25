@@ -8,23 +8,34 @@
 // Example====>
 import React, { useState, useCallback } from 'react';
 
-function ParentComponent() {
-  const [count, setCount] = useState(0);
+const ChildComponent = ({ onClick }) => {
+  console.log('ChildComponent rendering');
+  return (
+    <div>
+      <button onClick={onClick}>Click Me in Child</button>
+    </div>
+  );
+};
 
-  // Define a dependency variable
+const ParentComponent = () => {
+  const [count, setCount] = useState(0);
   const dependency = 'dependencyValue';
 
-  // useCallback memoizes the function with a dependency array
   const handleClick = useCallback(() => {
     console.log('Button clicked! Dependency:', dependency);
   }, [dependency]);
 
   return (
     <div>
-      <button onClick={handleClick}>Click Me</button>
+      <button onClick={handleClick}>Click Me in Parent</button>
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment Count</button>
+
+      {/* Pass the memoized handleClick function as a prop to ChildComponent */}
+      <ChildComponent onClick={handleClick} />
     </div>
   );
-}
+};
+
+export default ParentComponent;
 

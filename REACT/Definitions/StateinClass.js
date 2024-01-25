@@ -4,4 +4,4 @@
 
 
 
-// State are the javascript Object thate represents the internal data of our Component 
+// State are the javascript Object that represents the internal data of our Component 

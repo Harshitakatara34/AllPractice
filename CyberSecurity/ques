@@ -1,0 +1,48 @@
+
+Absolutely, here are concise answers to the basic cybersecurity interview questions:
+
+What is Cybersecurity?
+
+Answer: Cybersecurity is the practice of protecting computer systems, networks, and data from unauthorized access, damage, or theft.
+What are the primary goals of cybersecurity?
+
+Answer: The primary goals are maintaining confidentiality, integrity, and availability of information.
+Can you define encryption?
+
+Answer: Encryption is the process of converting readable data into coded text to prevent unauthorized access.
+What is a firewall?
+
+Answer: A firewall is a network security device that monitors and controls incoming and outgoing traffic based on predetermined rules.
+Difference between symmetric and asymmetric encryption?
+
+Answer: Symmetric uses one key for both encryption and decryption; asymmetric uses a pair of public and private keys.
+What is a virus, worm, and Trojan horse?
+
+Answer: Virus attaches to programs, worm replicates independently, Trojan horse disguises malicious functions.
+What is multi-factor authentication (MFA)?
+
+Answer: MFA is a security process requiring two or more authentication factors for access.
+What is a DDoS attack?
+
+Answer: A DDoS attack overwhelms a system with traffic, making it unavailable.
+Define penetration testing.
+
+Answer: Penetration testing is a simulated cyber-attack to identify and address vulnerabilities.
+How does public key infrastructure (PKI) work?
+
+Answer: PKI uses public and private key pairs for secure communication and encryption.
+What is phishing?
+
+Answer: Phishing is a cyber-attack using deceptive emails to trick individuals into revealing sensitive information.
+Explain the concept of a vulnerability in cybersecurity.
+
+Answer: A vulnerability is a weakness in a system that could be exploited by attackers.
+Role of a Security Information and Event Management (SIEM) system?
+
+Answer: SIEM systems collect and analyze log data to detect and respond to security incidents.
+How do you stay updated on the latest cybersecurity threats and trends?
+
+Answer: I stay updated through blogs, conferences, forums, and certifications.
+Explain the concept of zero-day vulnerability?
+
+Answer: A zero-day vulnerability is a flaw exploited by attackers before the software vendor is aware of it

@@ -6,7 +6,6 @@
 
 // Example===>
 import React, { useReducer } from "react";
-
 // Reducer function
 const counterReducer = (state, action) => {
   switch (action.type) {

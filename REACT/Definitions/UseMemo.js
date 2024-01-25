@@ -5,24 +5,28 @@
 // useMemo is typically used for optimizing expensive calculations or data transformations.
 
 
-import React, { useState, useMemo } from 'react';
-
-function ParentComponent() {
-  const [value1, setValue1] = useState(0);
-  const [value2, setValue2] = useState(0);
-
-  // useMemo memoizes the result of a computation
-  const sum = useMemo(() => {
-    console.log('Calculating sum...');
-    return value1 + value2;      // it will only Calculate the value whenever anyone one value get updated.
-  }, [value1, value2]);
-
+import { useState } from "react";
+import { useEffect } from "react";
+import { useMemo } from "react";
+export const UseMemo = () => {
+  const [count, setCount] = useState(2);
+  const [sub, setSub] = useState(2);
+  const handleadd = () => {
+    setCount(count + 1);
+  };
+  const handleSub = () => {
+    setSub(sub - 1);
+  };
+  const mult = useMemo(() => {
+    console.log("harshi");
+    return count * 2;
+  }, [count]);
   
   return (
-    <div>
-      <input type="number" value={value1} onChange={(e) => setValue1(Number(e.target.value))} />
-      <input type="number" value={value2} onChange={(e) => setValue2(Number(e.target.value))} />
-      <p>Sum: {sum}</p>
-    </div>
+    <>
+      <h1>{mult}</h1>
+      <button onClick={handleadd}>Add:{count}</button>
+      <button onClick={handleSub}>Sub:{sub}</button>
+    </>
   );
-}
+};

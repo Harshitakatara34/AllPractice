@@ -1,7 +1,11 @@
 // Controlled components are React components where their state is managed by React,
-
 //  typically using useState, while uncontrolled components have their state managed by the
 //   DOM and are typically accessed using refs or native JavaScript methods.
+
+
+
+
+
 
 import { useRef } from "react";
 

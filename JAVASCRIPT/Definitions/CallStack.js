@@ -1,1 +1,1 @@
-//  A mechanism in programming that keeps track of function calls and their execution order.(LIFO)
+//A mechanism in programming that keeps track of function calls and their execution order.(LIFO)
