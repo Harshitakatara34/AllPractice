@@ -1,26 +1,18 @@
 // Certainly! Here are answers to the Express.js interview questions:
 
 // 1. **What is Express.js, and why is it used in web development?**
-   
-//    Express.js is a web application framework for Node.js. It is used in web development to simplify and streamline the process of building web applications and APIs. Express.js provides a set of features and tools to handle routing, middleware, HTTP requests, and more, making it easier to develop web applications in Node.js.
 
+//    Express.js is a web application framework for Node.js. It is used in web development to simplify and streamline the process of building web applications and APIs. Express.js provides a set of features and tools to handle routing, middleware, HTTP requests, and more, making it easier to develop web applications in Node.js.
 
 // or
 
 // my code (samreen)
-<<<<<<< HEAD
-// It is a web application framework for Node.js, and it is commonly used as a Node.js module to build web applications and APIs. 
+// It is a web application framework for Node.js, and it is commonly used as a Node.js module to build web applications and APIs.
 
-// Express.js provides a set of features and tools to handle routing, middleware, HTTP requests, and more, making it easier to develop web 
+// Express.js provides a set of features and tools to handle routing, middleware, HTTP requests, and more, making it easier to develop web
 // applications in Node.js.
-=======
-
-// It is a web application framework for Node.js, and it is commonly used as a Node.js module to build web applications and APIs. Express.js provides a set of features and tools to handle routing, middleware, HTTP requests, and more, making it easier to develop web applications in Node.js.
-
->>>>>>> 90a54d388cb27a501bddb0686fd07956415f9c24
 // const express = require('express');
 // const app = express();
-
 
 // 2. **Explain the difference between Express.js and Node.js.**
 
@@ -36,8 +28,7 @@
 
 // 4. **What is middleware in Express.js? Can you give some examples of middleware functions?**
 
-//    Middleware in Express.js are functions that have access to the request and response objects in an Express application's request-response cycle. They can perform tasks such as logging, authentication, and data parsing. Examples of middleware functions include `body-parser` for parsing JSON and URL-encoded data, `morgan` for request logging, and custom middleware for authentication and authorization. 
-
+//    Middleware in Express.js are functions that have access to the request and response objects in an Express application's request-response cycle. They can perform tasks such as logging, authentication, and data parsing. Examples of middleware functions include `body-parser` for parsing JSON and URL-encoded data, `morgan` for request logging, and custom middleware for authentication and authorization.
 
 // 5. **How do you handle routing in Express.js? Provide an example of a basic route.**
 

@@ -1,16 +1,13 @@
 // What is AngularJS?
 // AngularJS is an open-source JavaScript framework developed by Google for building dynamic web applications.
-//  It allows you to use HTML as your template language and extend the HTML's syntax to express the components of 
+//  It allows you to use HTML as your template language and extend the HTML's syntax to express the components of
 //  your application.
-
 
 // What are the key features of AngularJS?
 // Key features of AngularJS include two-way data binding, templates, MVC (Model-View-Controller) architecture, directives, filters, form validation, dependency injection, and testing.
 
-
 // What is data binding in AngularJS?
 // Data binding is an automatic way of updating the view whenever the model changes, and updating the model whenever the view changes. In AngularJS, there are two types of data binding: one-way binding and two-way binding.
-                
 
 // Explain directives in AngularJS.
 // Directives are markers on DOM elements that tell AngularJS's HTML compiler to attach a specified behavior to that DOM element or even transform the DOM element and its children. Examples include ng-app, ng-model, ng-bind, ng-repeat, and more.

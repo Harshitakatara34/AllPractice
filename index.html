@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delayed Output</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <label for="userInput">Enter Text:</label>
-    <input type="text" id="userInput">
+    <input type="text" id="userInput" />
     <button onclick="outputAfterDelay()">Submit</button>
 
     <div id="output"></div>
 
     <script>
-        function outputAfterDelay() {
-            var userInput = document.getElementById('userInput').value;
-            var outputElement = document.getElementById('output');
+      function outputAfterDelay() {
+        var userInput = document.getElementById("userInput").value;
+        console.log(userInput);
+        var outputElement = document.getElementById("output");
 
-            setTimeout(function() {
-                outputElement.textContent = "Output after 2 seconds: " + userInput;
-            }, 2000);
-        }
+        setTimeout(function () {
+          outputElement.textContent = "Output after 2 seconds: " + userInput;
+        }, 2000);
+      }
     </script>
-
-</body>
+  </body>
 </html>
+
+<!-- InnerText vs. InnerHTML -->
+<!-- <div id="example">
+  <p>This is <strong>bold</strong> text.</p>
+</div>
+
+<script>
+  const element = document.getElementById("example");
+  console.log(element.innerText); // Output: "This is bold text."
+</script> -->
+
+
+
+<!-- <div id="example">
+  <p>This is <strong>bold</strong> text.</p>
+</div>
+
+<script>
+  const element = document.getElementById("example");
+  console.log(element.innerHTML); // Output: "<p>This is <strong>bold</strong> text.</p>"
+</script> -->

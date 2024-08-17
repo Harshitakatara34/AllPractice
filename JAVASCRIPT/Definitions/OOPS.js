@@ -1,14 +1,10 @@
-
-// JavaScript Object-Oriented Programming (OOP) is a programming 
-// approach that employs objects to represent 
-// real-world entities, promoting code organization and reusability through 
+// JavaScript Object-Oriented Programming (OOP) is a programming
+// approach that employs objects to represent
+// real-world entities, promoting code organization and reusability through
 // constructor functions, classes (ES6), and prototype-based inheritance.
 
-
-
-
-
-
+// OOP (Object-Oriented Programming) organizes code using objects and classes, focusing on
+// encapsulation, abstraction, inheritance, and polymorphism.
 
 // Certainly, here are the key concepts related to Object-Oriented Programming (OOP) in JavaScript explained in a simple and concise way:
 

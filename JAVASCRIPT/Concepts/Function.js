@@ -1,22 +1,17 @@
 // what will it return
-function add(a,b) {
-    let c = a + b;
-  }
-  
-  let result = add();
-  console.log(result)
+function add(a, b) {
+  let c = a + b;
+}
 
+let result = add();
+console.log(result);
 
-  function nuller() {
-    return null
-    }
-    
-    // console.log(nuller());    return null
+function nuller() {
+  return null;
+}
 
+// console.log(nuller());    return null
 
+function nuller() {}
 
-    function nuller() {
-    
-        }
-        
-        // console.log(nuller());   return undefined
+// console.log(nuller());   return undefined
