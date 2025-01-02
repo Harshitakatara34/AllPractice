@@ -13,4 +13,4 @@ let user = {
   
   // only the deepest keys become variables
   const { posts: [{ title }, {title: t2}] } = user;
-  console.log(title, t2);
+  console.log(title, t2); 

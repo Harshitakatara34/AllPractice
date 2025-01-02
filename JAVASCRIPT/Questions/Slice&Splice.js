@@ -11,7 +11,7 @@ let a = [1, 3, 4, 5, 7];
 let d = a.slice(1, -2); // [3, 4]
 console.log(d);
 
-let e = a.slice(0, -3); // [1, 3, 4]
+let e = a.slice(0, -3); // [1, 3]
 console.log(e);
 
 // doubt

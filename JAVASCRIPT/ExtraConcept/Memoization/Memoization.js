@@ -2,7 +2,6 @@
 
 
 
-
 // Memoization is an optimization technique that can be used to reduce
 //time-consuming calculation by saving previous input to something called cache and 
 //returing the result from it.
@@ -18,16 +17,6 @@
 //   console.log(multiplyByTwo(5)); // Calculates and returns 10
 //   console.log(multiplyByTwo(5)); // Returns the cached result 10
   
-
-
-
-
-
-
-
-
-
-
 
 
 let sum = 0;

@@ -7,6 +7,9 @@
 //     speak() {
 //       console.log(this.name + ' makes a sound.');
 //     }
+//     eat = ()=>{
+ //   console.log(this.name + 'eating');
+//    }       
 //   }
   
 //   class Dog extends Animal {
