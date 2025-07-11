@@ -15,4 +15,42 @@
 // component's behavior or cause unexpected issues.
 
 
+// Let’s see an example without cleanup:
+
+// jsx
+// Copy
+// Edit
+// useEffect(() => {
+//   const interval = setInterval(() => {
+//     console.log("Still running...");
+//   }, 1000);
+// }, []);
+// This setInterval keeps running even if the component unmounts.
+
+// ❌ It logs endlessly.
+
+// ❌ Wastes memory.
+
+// ✅ Fix: Use cleanup:
+
+// jsx
+// Copy
+// Edit
+// useEffect(() => {
+//   const interval = setInterval(() => {
+//     console.log("Still running...");
+//   }, 1000);
+
+//   return () => clearInterval(interval); // ✅ Memory freed
+// }, []);
+// Now when the component unmounts:
+
+// clearInterval runs
+
+// Timer is killed
+
+// Memory is freed
+
+// ✅ No memory leak
+
 

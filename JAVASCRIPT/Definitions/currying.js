@@ -1,6 +1,36 @@
 // Currying is a functional programming concept where a function that takes multiple arguments 
 // is transformed into a series of functions that each take a single argument. 
 // This allows for partial function application and more flexible, composable code.
+// function add(a, b) {
+//   return a + b;
+// }
+
+// // Curried form
+// function curriedAdd(a) {
+//   return function(b) {
+//     return a + b;
+//   };
+// }
+
+// console.log(curriedAdd(2)(3)); // 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ex==>const add = (a) => (b) => a + b;
 // console.log(add(2)(3))

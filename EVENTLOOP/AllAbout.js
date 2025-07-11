@@ -23,3 +23,30 @@
 
 
 // Asynchornous function m humesha ek callback jarroor hota h 
+
+
+
+
+
+//           ⬇️  Synchronous Code
+// +----------------------+
+// |      Call Stack      |  ← Executes code line-by-line
+// +----------------------+
+//           ⬇️  Async tasks register with browser (Web APIs)
+// +----------------------------+
+// |     Web APIs / Browser     |  ← Handles setTimeout, fetch, DOM, etc.
+// +----------------------------+
+//           ⬇️  
+// +----------------------+
+// |   Microtask Queue    |  ← Handles Promises, queueMicrotask, async/await
+// +----------------------+
+//           ⬇️  
+// +----------------------+
+// |   Macrotask Queue    |  ← Handles setTimeout, setInterval, I/O, UI events
+// +----------------------+
+//           ⬇️  
+// +----------------------+
+// |      Event Loop      |  ← Continuously checks if Call Stack is empty
+// +----------------------+
+//           ⬆️  
+//     Pulls tasks from microtasks FIRST, then ONE from macrotask

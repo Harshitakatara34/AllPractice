@@ -1,3 +1,85 @@
+// 🔷 What is a Symbol?
+// Symbol is a primitive data type in JavaScript (introduced in ES6) used to create unique and hidden keys in objects.
+
+// ✅ Key Property:
+// Even if two symbols have the same description, they are always unique.
+
+// js
+// Copy
+// Edit
+// const a = Symbol("hello");
+// const b = Symbol("hello");
+
+// console.log(a === b); // ❌ false
+// 🔴 Problem: Regular keys can clash
+// js
+// Copy
+// Edit
+// const obj = {
+//   name: "Kunal",
+//   name: "Riya"  // ❌ Overwrites previous
+// };
+// console.log(obj.name); // "Riya"
+// ✅ Solution? Use Symbol to avoid key collision
+
+// ✅ Why & When to Use Symbol? (Real Scenarios)
+// 🔹 1. To Create Unique Object Keys (No Overwrite)
+// js
+// Copy
+// Edit
+// const id1 = Symbol("userId");
+// const id2 = Symbol("userId");
+
+// const user = {
+//   [id1]: 101,
+//   [id2]: 102
+// };
+
+// console.log(user); // Two completely different keys!
+// console.log(user[id1]); // 101
+// Even though description same → keys are unique 💯
+
+// 🔹 2. Hide Data from Loops or JSON.stringify (like private vars)
+// js
+// Copy
+// Edit
+// const secret = Symbol("password");
+
+// const user = {
+//   name: "Harshita",
+//   [secret]: "abc123"
+// };
+
+// console.log(Object.keys(user));           // ["name"]
+// console.log(JSON.stringify(user));        // {"name":"Harshita"}
+// console.log(user[secret]);                // "abc123" ✅
+
+
+
+
+
+
+// 🔁 Summary Chart
+// Use Case	Why Symbol?
+// Unique key in object	Prevent overwrite
+// Hidden/internal data	Not visible in loops/JSON
+// Metadata / Devtool info	No conflict with other devs/libraries
+// Advanced control (Symbol.*)	Customize object behavior
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // A unique and immutable data type in JavaScript used for creating property keys that are guaranteed to be unique.
 
 

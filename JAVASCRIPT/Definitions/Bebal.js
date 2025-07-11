@@ -4,4 +4,7 @@
 
 //==========================
 
-// Babel is like a translator for JavaScript. It takes new, fancy JavaScript code and turns it into a simpler version that older web browsers can understand and run. This way, you can use the latest JavaScript features and still support older browsers.
+// Babel is like a translator for JavaScript. It takes new, fancy JavaScript code and turns it into a simpler version that older web browsers can understand and run. This way, you can use the latest JavaScript features and still support older browsers.    
+
+
+// Babel is a tool that transpiles modern JavaScript into code that older browsers can understand.”

@@ -1,4 +1,5 @@
-/// Constructor Function
+// Constructor Function
+
 // function Animal(noOfLegs, vegetarian) {
 //     this.noOfLegs = noOfLegs;
 //     this.vegetarian = vegetarian;
