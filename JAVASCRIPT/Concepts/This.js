@@ -1,3 +1,9 @@
+// this refers to the object that is currently calling/executing the function. 
+// Its value depends on how the function is invoked, not where it is declared
+
+
+
+
 const uh1 ={
     name: 'ghi',
     temp:function(){

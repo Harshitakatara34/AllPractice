@@ -78,8 +78,15 @@ for (var i = 0; i < 5; i++) {
     }, 1000);
   })(i);
 }
-
+// “This code uses an IIFE to create a new function scope for each iteration.
+//  The current value of i is passed into the IIFE as j, and each setTimeout callback 
+//  'closes over a different j, so it prints 0–4 correctly instead of printing 5 five times.”
 // ########################=============================================#############################
+
+
+
+
+
 // for (let i = 0; i < 5; i++) {
 //   setTimeout(() => {
 //     console.log(i);

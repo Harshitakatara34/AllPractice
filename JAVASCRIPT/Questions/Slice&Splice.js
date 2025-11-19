@@ -26,7 +26,7 @@ console.log(e);
 
 // Splice
 
-// Splice
+// Splice  (IDA)
 
 let arr = [2, 4, 5, 6];
 

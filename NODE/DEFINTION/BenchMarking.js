@@ -1,6 +1,9 @@
 // Benchmarking is like comparing how fast or well something works
 // compared to a known standard or other similar things.
 
+
+
+
 //  It helps us figure out if something is doing a good job or not.
 
 // To benchmark a specific function in Node.js, you can encapsulate that function within the console.time()

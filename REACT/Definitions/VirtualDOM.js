@@ -1,6 +1,7 @@
 
 
-
+// The Virtual DOM is just a JavaScript object 
+// tree created internally by React (or similar libraries):
 
 
 

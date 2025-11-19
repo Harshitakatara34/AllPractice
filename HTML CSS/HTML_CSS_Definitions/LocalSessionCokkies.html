@@ -3,3 +3,22 @@
  session storage is for temporary storage within a session;
  
   cookies are small data pieces sent between client and server. -->
+
+  <!-- ✅ Why Cookies Are Used (Interview Point of View)
+
+Cookies authentication ke liye most secure option hain because they support:
+
+HttpOnly → JavaScript access nahi (XSS safe)
+
+Secure → Only HTTPS
+
+SameSite → CSRF protection
+
+Browser automatically send karta hai cookie, toh tokens manually attach nahi karne padte.
+
+Refresh tokens ko store karne ka industry standard = HttpOnly cookies.
+
+🎯 One-Liner (Direct Interview Answer)
+
+“We use cookies for authentication because they are more secure — thanks to HttpOnly, Secure, 
+and SameSite flags — and they are automatically sent with every request, making authentication safer and easier compared to local or session storage.” -->

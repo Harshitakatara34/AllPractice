@@ -1,0 +1,8 @@
+// Shallow Copy
+// “A shallow copy copies only the top-level properties, but nested objects are copied by reference.”
+// const copy = { ...obj };  // shallow copy
+
+
+// Deep Copy
+// “A deep copy creates a completely independent clone, including all nested objects.”
+// const deep = JSON.parse(JSON.stringify(obj)); // simple deep copy

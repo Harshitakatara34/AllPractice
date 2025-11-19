@@ -6,6 +6,12 @@ function temp() {
 
 temp.apply(null, [1, 2, 3, 4]);
 
+//  for arguments ==> It exists only in regular functions, not in arrow functions.
+
+
+
+
+
 // rate limiter in SiExpress.js
 // const rateLimit = require("express-rate-limit");
 // const limiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 100 });

@@ -16,3 +16,6 @@ console.log(d === t); //true
 
 //LET ,Const  ===> Block Scoped
 // Var==> Function Scoped
+
+// Primitive data types are immutable, single-value, basic types stored by value.
+// Non-primitive data types are reference-based, mutable, and store collections or objects.

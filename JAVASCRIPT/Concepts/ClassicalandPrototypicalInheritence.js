@@ -1,3 +1,9 @@
+// Objects inherit directly from other objects, not from classes.
+// Every object has a prototype, and it can access properties/methods from that prototype.
+
+
+
+
 // // Classical Inheritence 
 // class Animal {
 //     constructor(name) {

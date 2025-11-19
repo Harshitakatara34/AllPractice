@@ -1,0 +1,3 @@
+// A module bundler is a tool that takes multiple JavaScript files (modules) — 
+// along with other assets like CSS, images, etc. — and bundles them into a single 
+// file (or a few files) that can be efficiently loaded in a browser or runtime environment.

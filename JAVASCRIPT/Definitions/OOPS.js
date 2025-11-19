@@ -1,3 +1,38 @@
+// “OOP is a programming paradigm based on objects that combine data and behaviors to build modular, 
+// reusable, and organized code.”
+
+
+
+// 1. Encapsulation
+// Hiding internal data and exposing only what’s necessary.
+// Example: Private variables + public methods.
+
+
+
+// 2. Abstraction
+// Showing only essential features and hiding complexity.
+// Example: Using a car’s steering without knowing engine details.
+
+
+
+// 3. Inheritance
+// One class reuses or extends another class’s properties and methods.
+// Example: Dog inherits from Animal.
+
+
+
+// 4. Polymorphism
+// Same method name behaves differently in different classes.
+// Example: speak() for Dog barks, Cat meows.
+
+
+
+
+
+
+
+
+
 // JavaScript Object-Oriented Programming (OOP) is a programming
 // approach that employs objects to represent
 // real-world entities, promoting code organization and reusability through

@@ -8,7 +8,10 @@ function doSomething(first, second, ...rest) {
 
 
 
-
+// If ... appears on the right side (RHS) of assignment or while calling a function →
+// It is Spread.
+// If ... appears on the left side (LHS) in function parameters or destructuring →
+// It is Rest.
   
 // Rest Operator (...): Gathers multiple values into an array.
 

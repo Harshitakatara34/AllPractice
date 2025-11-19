@@ -1,3 +1,45 @@
+// Promise.all
+// If even one promise fails → whole Promise.all fails.
+
+// Promise.allSettled
+// Waits for all promises to finish, whether they succeed or fail.
+
+// Promise.race
+// Returns the result of the first promise that settles (fulfills or rejects).
+
+// Promise.any
+// Returns the first successful promise.
+// Rejects only if all promises fail.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const promise1 = new Promise((resolve, reject) => {
     //     setTimeout(() => resolve('one'), 1000);
     //   });

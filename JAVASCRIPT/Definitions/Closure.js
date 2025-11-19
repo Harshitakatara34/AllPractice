@@ -1,3 +1,23 @@
+
+// “A closure is a function that retains access to its lexical scope, even when it 
+// is executed outside of that scope. It preserves the bindings of variables from the environment 
+// in which it was created.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Closure (JavaScript):
 // function outer() {
 //   let secret = "Harshita";

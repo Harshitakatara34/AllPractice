@@ -1,3 +1,20 @@
+// useImperativeHandle allows a child component to expose 
+// specific methods to the parent using a ref.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { forwardRef, useRef, useImperativeHandle } from 'react';
 
 // Child component that accepts a ref

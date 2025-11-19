@@ -1,5 +1,10 @@
 // Currying is a functional programming concept where a function that takes multiple arguments 
-// is transformed into a series of functions that each take a single argument. 
+// is transformed into a series of functions that each take a single argument.
+
+
+
+
+
 // This allows for partial function application and more flexible, composable code.
 // function add(a, b) {
 //   return a + b;
