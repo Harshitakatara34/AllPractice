@@ -236,3 +236,39 @@
 
 // 28. Optimised the backend code
 
+
+
+///========================================//////
+
+// SENARIO BASED QUESTIONS
+
+// page me form update karo to user detailed bhi update ho jaye login hua h jo user
+// function x (){
+// a() {
+//     setTimeout(, 5000)
+// }
+// b() {
+//     setTimeout(, 3000)
+// }
+// c() {
+//     setTimeout(, 2000)
+// }
+// }
+
+// function y (){
+// //     a()
+// //     b()
+// //     c()
+// // }
+
+// syncronoue run karo please , a, b, c 
+
+//=========================///
+// performance based kaise karege 
+// optimised - 
+// useCall , memo, useMemo etc
+// loading spliting
+// kb context ai kab redux used et.
+// type script me interface kya h and agr interface me 2 field h and component me 4 a gyi to errors aayega?
+
+

@@ -42,6 +42,9 @@
 
 
 //A closure is a function that retains access to variables from its outer scope even after the outer function has finished executing.
+
+// closer is a function that retains the variable access from its outer scope and outer function finished the execution of the code.
+
 // example===>UseEffect
 
 
