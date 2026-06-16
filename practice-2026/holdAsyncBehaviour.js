@@ -37,3 +37,19 @@ async function fn(){
     console.log('3')
 }
 fn()
+
+//========. // 1 2 3  - hold behaviour of async code with async await
+
+console.log("1")
+
+async function run() {
+    await new Promise((res)=>{
+        setTimeout(()=>{
+            console.log('2')
+            res()
+        }, 0)
+    })
+    console.log('3')
+}
+
+run()
