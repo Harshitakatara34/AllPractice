@@ -1,0 +1,261 @@
+ 1. What is the difference between HTML and HTML5?
+
+HTML
+
+Older version
+Requires plugins for audio/video
+
+HTML5
+
+Semantic tags (header, footer, section)
+Audio & Video support
+Local Storage
+Canvas & SVG
+Geolocation API
+
+
+2. What are Semantic Tags?
+
+Tags that describe the meaning of content.
+
+<header>
+<nav>
+<main>
+<section>
+<article>
+<aside>
+<footer>
+
+    Benefits:
+Better SEO
+Better Accessibility
+Easier Maintenance
+
+3. Difference between id and class?
+id
+<div id="container"></div>
+Unique
+One element only
+class
+<div class="box"></div>
+<div class="box"></div>
+Reusable
+Multiple elements
+
+4. Difference between Block and Inline Elements?
+Block
+<div>
+<p>
+<h1>
+Takes full width
+Starts new line
+Inline
+<span>
+<a>
+<strong>
+Takes required width
+Does not start new line
+
+5. Difference between Local Storage and Session Storage?
+Local Storage	Session Storage
+Permanent	Till tab closes
+5-10MB	5MB
+Shared between tabs	Not shared
+localStorage.setItem("name","Samreen");
+
+6. Difference between Cookies, LocalStorage and SessionStorage?
+Feature	Cookies	LocalStorage	SessionStorage
+Sent to Server	Yes	No	No
+Expiry	Can expire	No expiry	Tab close
+Size	4KB	5-10MB	5MB
+
+7. What is the difference between Canvas and SVG?
+Canvas
+<canvas></canvas>
+Pixel based
+Good for games
+
+
+SVG
+<svg></svg>
+
+Vector based
+Better for icons
+
+
+8. What are Meta Tags?
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Used for:
+
+SEO
+Responsive Design
+Character Encoding
+
+CSS Interview Questions (Theory)
+9. Difference between Relative, Absolute, Fixed and Sticky?
+
+Relative 
+.box{
+position:relative;
+}
+
+Moves relative to itself.
+
+Absolute // relative for its parents
+.box{
+position:absolute;
+}
+
+Relative to nearest positioned parent.
+
+Fixed // relative for its viewport (screen) fixed
+.nav{
+position:fixed;
+top:0;
+}
+
+Stays fixed on screen.
+
+Sticky // hybrid (relative + fixed)
+.nav{
+position:sticky;
+top:0;
+}
+
+Acts relative until scroll reaches it.
+
+10. Difference between Flexbox and Grid?
+Flexbox
+display:flex;
+
+One-dimensional
+
+Row OR Column
+Grid
+display:grid;
+
+Two-dimensional
+
+Rows AND Columns
+
+10. Difference between Flexbox and Grid?
+Flexbox
+display:flex;
+
+One-dimensional
+
+Row OR Column
+Grid
+display:grid;
+
+Two-dimensional
+
+Rows AND Columns
+
+11. What is Box Model?
+Margin
+Border
+Padding
+Content
+.box{
+width:200px;
+padding:20px;
+border:5px solid;
+margin:10px;
+}
+
+12. What is box-sizing?
+
+content-box (default)
+box-sizing:content-box;
+
+Width excludes padding.
+
+border-box
+box-sizing:border-box;
+
+Width includes padding and border.
+
+*{
+box-sizing:border-box;
+}
+
+13. Difference between display:none and visibility:hidden?
+display:none
+display:none;
+Hidden
+No space occupied
+visibility:hidden
+visibility:hidden;
+Hidden
+Space occupied
+
+14. What is Specificity?
+
+Priority of CSS selectors.
+
+Inline Style = 1000
+ID = 100
+Class = 10
+Element = 1
+
+Example:
+
+#title{
+color:red;
+}
+
+.title{
+color:blue;
+}
+
+Output:
+
+Red
+
+ID wins.
+
+15. What is z-index?
+
+Controls stacking order.
+
+.box1{
+z-index:10;
+}
+
+.box2{
+z-index:20;
+}
+
+Higher z-index appears on top.
+
+
+
+Amazon Frequently Asked HTML/CSS Questions
+
+What is CSS Specificity?
+Difference between Flexbox and Grid?
+Explain Box Model.
+Difference between display:none and visibility:hidden.
+What is Semantic HTML?
+Difference between absolute and relative positioning?
+How does z-index work?
+What are pseudo classes?
+What is responsive design?
+How would you center a div?
+
+
+Google Frequently Asked HTML/CSS Questions
+
+How does browser rendering work?
+Critical Rendering Path?
+Reflow vs Repaint?
+CSS Specificity?
+Flexbox internals?
+Grid Layout?
+Accessibility in HTML?
+Semantic HTML?
+What is the viewport meta tag?
+How do browsers calculate CSS selectors?
