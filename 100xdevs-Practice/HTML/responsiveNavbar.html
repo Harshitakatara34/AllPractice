@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+    <style>
+      div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      h2{
+        width: 30%;
+      }
+      nav{
+        display: flex;
+        width: 50%;
+        justify-content:space-around;
+      }
+      @media(max-width:600px){
+    nav {
+    flex-direction:column;
+          gap:10px;
+        align-items: center;
+        }
+     div {
+    flex-direction:column;
+        gap:10px;
+       align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+<div>
+      <p>logo</p>
+      <nav>
+      <a href='#'>Home</a>
+      <a href='#'>About</a>
+      <a href='#'>Contact</a>
+    </nav>
+</div>
+
+  </body>
+</html>

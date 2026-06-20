@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+    <style>
+      .main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+      }
+    @media(max-width: 600px){
+        .main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class='main'>
+      <div>a</div>
+      <div>b</div>  
+      <div>c</div>
+    </div>
+  </body>
+</html>
