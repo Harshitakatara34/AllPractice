@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+    <style>
+ .main{
+   text-align: center;
+ }
+      .content{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        height: 100vh;
+      }
+      .content > div:first-child{
+        flex: 1;
+        border: 1px solid gray;
+      }
+       .content > div:last-child{
+
+          flex: 3;
+          border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+<div>
+  <div class='main'>Header</div>
+   <div class='content'>
+     <div>
+       Sidebar
+      </div>
+      <div>
+        content
+       </div>
+   </div>
+   <div class="main">Footer</div>
+</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
